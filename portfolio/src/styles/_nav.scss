@@ -1,0 +1,30 @@
+.Nav{
+    nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+      
+        h1{
+            font-size: 4rem;
+            cursor: pointer;
+            &:hover{
+            color: rgb(255, 83, 111);
+            }
+        }
+        ul{
+            text-decoration: none;
+            list-style-type: none;
+            display: flex;
+            font-size: 1.3rem;
+            gap: 1rem;
+            li{
+                cursor: pointer;
+                &:hover{
+                    color: rgb(255, 83, 111);
+                    font-size: 1.5rem;
+                }
+            }
+        }
+    }
+}

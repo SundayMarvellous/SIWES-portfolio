@@ -1,1 +1,42 @@
-/*# sourceMappingURL=App.css.map */
+.Nav nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.Nav nav h1 {
+  font-size: 4rem;
+  cursor: pointer;
+}
+.Nav nav h1:hover {
+  color: rgb(255, 83, 111);
+}
+.Nav nav ul {
+  text-decoration: none;
+  list-style-type: none;
+  display: flex;
+  font-size: 1.3rem;
+  gap: 1rem;
+}
+.Nav nav ul li {
+  cursor: pointer;
+}
+.Nav nav ul li:hover {
+  color: rgb(255, 83, 111);
+  font-size: 1.5rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 62.5%;
+  margin-right: 15vw;
+  margin-left: 15vw;
+  margin-top: 10vh;
+  background-color: rgb(59, 0, 59);
+  color: white;
+}/*# sourceMappingURL=App.css.map */
