@@ -58,6 +58,34 @@
   width: 26rem;
   height: 31rem;
 }
+.home .getintouch {
+  margin-top: 3rem;
+  margin-bottom: 10rem;
+  font-family: "Lobster Two", cursive;
+  font-size: 3rem;
+  font-style: italic;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.home .getintouch hr {
+  width: 45%;
+}
+.home .getintouch button {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(255, 83, 232);
+  background-color: white;
+  border: none;
+  padding: 1rem;
+  letter-spacing: 1.5px;
+}
+.home .getintouch button:hover {
+  color: white;
+  background-color: rgb(255, 83, 232);
+  cursor: pointer;
+  box-shadow: 0 0 12px 2px rgb(255, 83, 232);
+}
 
 .Navbottom {
   position: fixed;
