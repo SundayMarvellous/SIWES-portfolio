@@ -26,7 +26,7 @@ function Nav() {
           <span className="Formlink" onClick={handleToHome}><li>HOME</li></span>
           <span className="Formlink" onClick={handleToAbout}><li>ABOUT</li></span>
           <span className="Formlink" onClick={handleToPortfolio}><li>PORTFOLIO</li></span>
-          <span className="Formlink" onClick={handleToContact}><li>CONTACT</li></span>
+          <span className="Formlink" onClick={handleToContact}><li>CONTACT ME</li></span>
         </ul>
       </nav>
     </div>

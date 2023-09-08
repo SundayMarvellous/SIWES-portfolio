@@ -65,11 +65,11 @@
   margin-left: -15vw;
   margin-top: 4rem;
   background-color: white;
-  color: rgb(255, 83, 232);
+  color: black;
   padding-left: 15vw;
   padding-right: 15vw;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
   width: 100vw;
 }
 .Navbottom .navbottom {
@@ -91,6 +91,10 @@
 .Navbottom .navbottom ul li:hover {
   color: rgb(255, 83, 232);
   font-size: 1rem;
+}
+.Navbottom .navbottom .images img {
+  width: 3rem;
+  height: 2rem;
 }
 
 * {
