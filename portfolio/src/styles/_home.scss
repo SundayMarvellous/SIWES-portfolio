@@ -1,0 +1,37 @@
+//font-family: 'Lobster', cursive;
+//font-family: 'Lobster Two', cursive;
+
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .intro{
+        margin-top: 2rem;
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        justify-content: space-between;
+        &-text{
+            font-family: 'Lobster Two', cursive;
+            font-size: 3rem;
+        }
+        &-explain{
+            font-family: 'Lobster Two', cursive;
+            font-weight: 400;
+            font-size: 2rem;
+            margin-top: 1rem;
+        }
+        img{
+            width: 25rem;
+            height: 30rem;
+            &:hover{
+                box-shadow: 0 0 12px 2px rgb(255, 83, 232);
+                cursor: pointer;
+                width: 26rem;
+                height: 31rem;
+            }
+        }
+
+    }
+   
+}

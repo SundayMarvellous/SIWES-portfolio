@@ -1,28 +1,33 @@
-.Nav{
-    nav{
+.Navbottom{
+    position: fixed;
+    bottom: 0;
+    margin-left: -15vw;
+    // margin-right: -15vw;
+    margin-top: 4rem;
+    background-color: white;
+    color: rgb(255, 83, 232);
+    padding-left: 15vw;
+    padding-right: 15vw;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    width: 100vw;
+
+    .navbottom{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-      
-        h1{
-            font-size: 4rem;
-            cursor: pointer;
-            &:hover{
-            color: rgb(255, 83, 232);
-            }
-        }
         ul{
             text-decoration: none;
             list-style-type: none;
             display: flex;
-            font-size: 1.3rem;
+            font-size: 0.8rem;
             gap: 1rem;
             li{
                 cursor: pointer;
                 &:hover{
                     color: rgb(255, 83, 232);
-                    font-size: 1.5rem;
+                    font-size: 1rem;
                 }
             }
         }

@@ -7,7 +7,7 @@ import {
 import Home from './components/Home';
 import About from './components/About';
 import Portfolio from './components/Porfolio';
-import Contact from './components/Contact'
+import Contact from './components/Contact';
 
 function App() {
   return (

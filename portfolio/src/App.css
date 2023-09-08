@@ -9,7 +9,7 @@
   cursor: pointer;
 }
 .Nav nav h1:hover {
-  color: rgb(255, 83, 111);
+  color: rgb(255, 83, 232);
 }
 .Nav nav ul {
   text-decoration: none;
@@ -22,8 +22,75 @@
   cursor: pointer;
 }
 .Nav nav ul li:hover {
-  color: rgb(255, 83, 111);
+  color: rgb(255, 83, 232);
   font-size: 1.5rem;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.home .intro {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  justify-content: space-between;
+}
+.home .intro-text {
+  font-family: "Lobster Two", cursive;
+  font-size: 3rem;
+}
+.home .intro-explain {
+  font-family: "Lobster Two", cursive;
+  font-weight: 400;
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+.home .intro img {
+  width: 25rem;
+  height: 30rem;
+}
+.home .intro img:hover {
+  box-shadow: 0 0 12px 2px rgb(255, 83, 232);
+  cursor: pointer;
+  width: 26rem;
+  height: 31rem;
+}
+
+.Navbottom {
+  position: fixed;
+  bottom: 0;
+  margin-left: -15vw;
+  margin-top: 4rem;
+  background-color: white;
+  color: rgb(255, 83, 232);
+  padding-left: 15vw;
+  padding-right: 15vw;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  width: 100vw;
+}
+.Navbottom .navbottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.Navbottom .navbottom ul {
+  text-decoration: none;
+  list-style-type: none;
+  display: flex;
+  font-size: 0.8rem;
+  gap: 1rem;
+}
+.Navbottom .navbottom ul li {
+  cursor: pointer;
+}
+.Navbottom .navbottom ul li:hover {
+  color: rgb(255, 83, 232);
+  font-size: 1rem;
 }
 
 * {
