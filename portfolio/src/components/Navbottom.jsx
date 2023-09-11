@@ -31,9 +31,9 @@ function Navbottom() {
           <span className="Formlink" onClick={handleToContact}><li>CONTACT ME</li></span>
         </ul>   
         <div className='images'>
-           <a href='https://github.com/SundayMarvellous'> <img src={Github} alt='github'/></a>
-           <a href='https://github.com/SundayMarvellous'> <img src={Linkedin} alt='linkedin'/></a>
-           <a href='https://github.com/SundayMarvellous'> <img src={Twitter} alt='twitter'/></a>
+           <a href='https://github.com/SundayMarvellous' target='_blank'> <img src={Github} alt='github'/></a>
+           <a href='https://github.com/SundayMarvellous' target='_blank'> <img src={Linkedin} alt='linkedin'/></a>
+           <a href='https://github.com/SundayMarvellous' target='_blank'> <img src={Twitter} alt='twitter'/></a>
         </div>
         </div>
        

@@ -1,7 +1,7 @@
 @import "./styles/nav";
 @import "./styles/home";
 @import "./styles/navbottom";
-
+@import "./styles/about";
 
 *{
   margin: 0;
@@ -14,7 +14,9 @@ body{
   margin-right: 15vw;
   margin-left: 15vw;
   margin-top: 10vh;
-  background-color: rgb(59, 0, 59);
+  background: rgb(59, 0, 59);
   color: white;
+  overflow-x: hidden;
+
 
 }

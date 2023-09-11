@@ -1,6 +1,7 @@
 import React from 'react'
 import Nav from './Nav'
-import Perfect from '../images/home.jpg';
+// import Perfect from '../images/home.jpg';
+import Homepic from '../images/homepagepic2.jpg';
 import Navbottom from './Navbottom';
 import { useNavigate } from "react-router-dom";
 
@@ -14,12 +15,12 @@ function Home() {
     <div className='home'>
       <Nav />
       <div className='intro'>
-        <p className='intro-text'>Hi, I am Sunday Marvellous.<br />
-        A Computer Engineering Covenant University Student.
+        <div className='intro-text'><p>Hi, I am Sunday Marvellous.<br />
+        A Computer Engineering Covenant University Student.</p>
         <br />
       <span className='intro-explain'>This is a portfolio containing the projects I carried out during my 6 months SIWES. </span>
-      </p>
-      <img src={Perfect} alt='picture'/>
+      </div>
+      <img src={Homepic} alt='picture'/>
       </div>
       <div className='getintouch'>
         <p>Interested in <br />working together?</p>
