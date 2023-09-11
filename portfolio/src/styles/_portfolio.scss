@@ -7,7 +7,7 @@
             gap: 4rem;
             margin-bottom: 5rem;
             .imagecontainer{
-                width: 100%;
+                width: 150%;
                 height: 55vh;
                 img{
                     width: 100%;
@@ -59,10 +59,10 @@
         }
     }
     .calc{
-        border: 2rem solid rgb(119, 41, 221);          
+        border: 1rem solid rgb(119, 41, 221);          
     }
     .demo{
-        border: 2rem solid rgb(254, 92, 254);
+        border: 1rem solid rgb(254, 92, 254);
     }
     .demobutt{
         &:hover{
@@ -89,7 +89,7 @@
         }
     }
     .bmicalc{
-        border: 2rem solid blue;
+        border: 1rem solid blue;
     }
     .bmibutt{
         &:hover{
@@ -101,6 +101,21 @@
         h5:hover{
             color: white;
             background-color: blue;
+        }
+    }
+    .planet{
+        border: 1rem solid #419ebb;
+    }
+    .planetbutt{
+        &:hover{
+            color: white;
+            background-color: #419ebb;
+        }
+    }
+    #planetbutton{
+        h5:hover{
+            color: white;
+            background-color: #419ebb;
         }
     }
 }

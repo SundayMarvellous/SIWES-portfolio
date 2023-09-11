@@ -3,12 +3,33 @@ import Nav from "./Nav";
 import Navbottom from "./Navbottom";
 import Bmicalculator from "../images/porfolio/bmicalculator.jpg"
 import Demo from "../images/porfolio/demo.png";
+import Planet from "../images/porfolio/planet.png"
 import Calculator from "../images/porfolio/desktop-completed.jpg";
 function Porfolio() {
   return (
     <div className="portfolio">
       <Nav />
       <div className="container">
+      <div className="containerjnr">
+          <div className="imagecontainer planet">
+            <img src={Planet} />
+          </div>
+          <div className="description">
+            <div className="description-child">
+              <h1>Planet Facts Site</h1>
+              <p>
+                This site provides information about  how the planets in Solar System are gravitationally to the Sun and the objects that orbit it.This
+                app was designed with HTML, CSS and JavaScript.
+              </p>
+              <div className="button" id="planetbutton">
+                <h5>HTML</h5>
+                <h5>CSS</h5>
+                <h5>JavaScript</h5>
+              </div>
+            </div>
+            <a href="https://siwes-projects.vercel.app/" target="_blank"><button className="planetbutt">VIEW PROJECT</button></a>
+          </div>
+        </div>
         <div className="agecalculator containerjnr">
           <div className="imagecontainer calc">
             <img src={Calculator} />
