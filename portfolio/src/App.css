@@ -16,7 +16,7 @@
   list-style-type: none;
   display: flex;
   font-size: 1rem;
-  gap: 1rem;
+  gap: 2rem;
 }
 .Nav nav ul li {
   cursor: pointer;
@@ -159,6 +159,92 @@
 }
 .about .main img {
   width: 50%;
+}
+
+.portfolio .container {
+  margin-top: 2rem;
+}
+.portfolio .container .containerjnr {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  margin-bottom: 5rem;
+}
+.portfolio .container .containerjnr .imagecontainer {
+  width: 100%;
+  height: 55vh;
+}
+.portfolio .container .containerjnr .imagecontainer img {
+  width: 100%;
+  height: 100%;
+}
+.portfolio .container .containerjnr .description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.portfolio .container .containerjnr .description h1 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.portfolio .container .containerjnr .description p {
+  font-size: 1.2rem;
+  text-align: justify;
+}
+.portfolio .container .containerjnr .description .button {
+  margin-top: 2rem;
+  display: flex;
+  gap: 2rem;
+}
+.portfolio .container .containerjnr .description .button h5 {
+  background-color: white;
+  padding: 0.5rem;
+  color: rgb(59, 0, 59);
+  font-size: 1rem;
+  border-radius: 20px;
+}
+.portfolio .container .containerjnr .description .button h5:hover {
+  cursor: pointer;
+}
+.portfolio .container .containerjnr .description button {
+  margin-top: 4rem;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.8rem 2rem;
+  cursor: pointer;
+}
+.portfolio .calc {
+  border: 2rem solid rgb(119, 41, 221);
+}
+.portfolio .demo {
+  border: 2rem solid rgb(254, 92, 254);
+}
+.portfolio .demobutt:hover {
+  color: white;
+  background-color: rgb(254, 92, 254);
+}
+.portfolio #demobutton h5:hover {
+  color: white;
+  background-color: rgb(254, 92, 254);
+}
+.portfolio .calcbutt:hover {
+  color: white;
+  background-color: rgb(119, 41, 221);
+}
+.portfolio #clacbutton h5:hover {
+  color: white;
+  background-color: rgb(119, 41, 221);
+}
+.portfolio .bmicalc {
+  border: 2rem solid blue;
+}
+.portfolio .bmibutt:hover {
+  color: white;
+  background-color: blue;
+}
+.portfolio #bmibutton h5:hover {
+  color: white;
+  background-color: blue;
 }
 
 * {
