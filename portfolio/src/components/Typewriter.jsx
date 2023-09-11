@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 
-const Typewriter = ({ text, delay, infinite }) => {
+
+const Typewriter1 = ({ text, delay, infinite }) => {
   const [currentText, setCurrentText] = useState('');
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -24,4 +25,4 @@ const Typewriter = ({ text, delay, infinite }) => {
   return <span>{currentText}</span>;
 };
 
-export default Typewriter;
+export default Typewriter1;

@@ -138,9 +138,24 @@
   gap: 2rem;
   margin-top: 4rem;
 }
-.about .main .head {
+.about .main-head {
   font-family: "Oswald", sans-serif;
-  font-size: 2rem;
+  font-size: 1.2rem;
+  text-shadow: 2px 2px rgb(255, 83, 232);
+}
+.about .main-description {
+  font-size: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.about .main-explanation {
+  font-size: 1.5rem;
+  text-align: justify;
+  color: rgb(255, 159, 242);
+}
+.about .main-explanation span {
+  font-weight: 600;
+  color: white;
 }
 .about .main img {
   width: 50%;
