@@ -314,7 +314,7 @@ function Porfolio() {
                 <h5>JavaScript</h5>
               </div>
             </div>
-            <a href="https://newsletter-signup-eight-kappa.vercel.app/">
+            <a href="https://sundaymarvellous.github.io/Newsletter-signup-/index.html">
               <button className="letterbutt">VIEW PROJECT</button>
             </a>
           </div>
