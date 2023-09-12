@@ -119,4 +119,17 @@
             background-color: #419ebb;
         }
     }
+    .enter{
+        border: 1rem solid rgb(170, 218, 248);
+    }
+    .enterbutt{
+        &:hover{
+            background-color: rgb(170, 218, 248);
+        }
+    }
+    #enterbutton{
+        h5:hover{
+            background-color: rgb(170, 218, 248);
+        }
+    }
 }

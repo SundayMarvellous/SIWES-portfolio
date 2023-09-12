@@ -4,6 +4,25 @@
         align-items: center;
         gap: 2rem;
         margin-top: 4rem;
+        // border: 1px solid white;
+         
+        &-image{
+            width: 50%;
+            height: 100%;
+            // background-color: azure;
+            background-repeat: no-repeat;
+    
+            .aboutpic{
+                height: 100%;
+                width: 100%;
+                object-position: center ;
+                object-fit: cover;
+            }
+        }
+        
+        &-text{
+            width: 50%;
+        }
 
         &-head{
         font-family: 'Oswald', sans-serif;  

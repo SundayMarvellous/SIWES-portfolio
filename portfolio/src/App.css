@@ -138,6 +138,22 @@
   gap: 2rem;
   margin-top: 4rem;
 }
+.about .main-image {
+  width: 50%;
+  height: 100%;
+  background-repeat: no-repeat;
+}
+.about .main-image .aboutpic {
+  height: 100%;
+  width: 100%;
+  -o-object-position: center;
+     object-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.about .main-text {
+  width: 50%;
+}
 .about .main-head {
   font-family: "Oswald", sans-serif;
   font-size: 1.2rem;
@@ -256,6 +272,15 @@
 .portfolio #planetbutton h5:hover {
   color: white;
   background-color: #419ebb;
+}
+.portfolio .enter {
+  border: 1rem solid rgb(170, 218, 248);
+}
+.portfolio .enterbutt:hover {
+  background-color: rgb(170, 218, 248);
+}
+.portfolio #enterbutton h5:hover {
+  background-color: rgb(170, 218, 248);
 }
 
 * {
