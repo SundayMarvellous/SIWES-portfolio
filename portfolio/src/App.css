@@ -308,9 +308,11 @@
   border: 1rem solid rgb(52, 52, 55);
 }
 .portfolio .calculatorbutt:hover {
+  color: white;
   background-color: rgb(52, 52, 55);
 }
 .portfolio #calculatorbutton h5:hover {
+  color: white;
   background-color: rgb(52, 52, 55);
 }
 .portfolio .news {
