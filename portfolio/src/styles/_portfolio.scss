@@ -132,4 +132,75 @@
             background-color: rgb(170, 218, 248);
         }
     }
+    .todo{
+        border: 1rem solid rgb(255, 128, 0);
+    }
+    .todobutt{
+        &:hover{
+            color: white;
+            background-color: rgb(255, 128, 0);
+        }
+    }
+    #todobutton{
+        h5:hover{
+            color: white;
+            background-color: rgb(255, 128, 0);
+        }
+    }
+    .inter{
+        border: 1rem solid rgb(248, 102, 199);
+    }
+    .interbutt{
+        &:hover{
+            background-color: rgb(248, 102, 199);
+        }
+    }
+    #interbutton{
+        h5:hover{
+            background-color: rgb(248, 102, 199);
+        }
+    }
+    .calculator{
+        border: 1rem solid rgb(52, 52, 55);
+    }
+    .calculatorbutt{
+        &:hover{
+            background-color: rgb(52, 52, 55);
+        }
+    }
+    #calculatorbutton{
+        h5:hover{
+            background-color: rgb(52, 52, 55);
+        }
+    }
+    .news{
+        border: 1rem solid rgb(255, 48, 1);
+    }
+    .newsbutt{
+        &:hover{
+            color: white;
+            background-color: rgb(255, 48, 1);
+        }
+    }
+    #newsbutton{
+        h5:hover{
+            color: white;
+            background-color: rgb(255, 48, 1);
+        }
+    }
+    .letter{
+        border: 1rem solid rgb(253, 83, 45);
+    }
+    .letterbutt{
+        &:hover{
+            color: white;
+            background-color: rgb(253, 83, 45);
+        }
+    }
+    #letterbutton{
+        h5:hover{
+            color: white;
+            background-color: rgb(253, 83, 45);
+        }
+    }
 }

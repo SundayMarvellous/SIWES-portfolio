@@ -1,7 +1,15 @@
 import React from "react";
 import Nav from "./Nav";
 import Navbottom from "./Navbottom";
+import Interactiveblur from "../images/porfolio/interactiveblur.jpg";
+import InteractiveForm from "../images/porfolio/complete-state-desktop.jpg";
 import Blur from "../images/blur.jpg";
+import NewsLetter from "../images/porfolio/desktop-design.jpg";
+import Newletterblur from "../images/porfolio/newsletterblur.png";
+import Newsblur from "../images/porfolio/newsblur.jpg";
+import Newshomepage from "../images/porfolio/newshomepage.png";
+import Todoblur from "../images/porfolio/todoblur.jpg";
+import Todo from "../images/porfolio/to-do list.png";
 import Enterblur from "../images/porfolio/enterblur.jpg";
 import Entertainment from "../images/porfolio/entertainment.png";
 import FSBlur from "../images/porfolio/blur4fs.jpg";
@@ -10,6 +18,8 @@ import PlanetBlur from "../images/porfolio/blur4planets.jpg";
 import Bmicalculator from "../images/porfolio/bmicalculator.jpg";
 import Demo from "../images/porfolio/demo.png";
 import Planet from "../images/porfolio/planet.png";
+import Calculatorblur from "../images/porfolio/calculatorblur.jpg";
+import Calculate from "../images/porfolio/calculator.png";
 import Calculator from "../images/porfolio/desktop-completed.jpg";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 function Porfolio() {
@@ -81,34 +91,123 @@ function Porfolio() {
         </div>
         <div className="containerjnr">
           <div
-            className="imagecontainer planet"
+            className="imagecontainer todo"
             style={{
-              backgroundImage: `url(${PlanetBlur})`,
+              backgroundImage: `url(${Todoblur})`,
               backgroundRepeat: "no-repeat",
               backgroundSize: "cover",
             }}
           >
-            <LazyLoadImage img src={Planet} />
+            <LazyLoadImage img src={Todo} />
           </div>
           <div className="description">
             <div className="description-child">
               <h1>To Do App</h1>
               <p>
-                This app helps you create a list of everything you need to do written down
-               so you don’t forget anything important. By
+                This app helps you create a list of everything you need to do
+                written down so you don’t forget anything important. By
                 prioritising the tasks in the list you plan the order in which
                 you’re going to do them and can quickly see what needs your
                 immediate attention.
               </p>
-              <div className="button" id="planetbutton">
+              <div className="button" id="todobutton">
                 <h5>HTML</h5>
                 <h5>CSS</h5>
                 <h5>JavaScript</h5>
               </div>
             </div>
-            <a href="https://siwes-projects.vercel.app/" target="_blank">
-              <button className="planetbutt">VIEW PROJECT</button>
+            <a href="https://siwes-projects-cuqy.vercel.app/" target="_blank">
+              <button className="todobutt">VIEW PROJECT</button>
             </a>
+          </div>
+        </div>
+        <div className="calculate containerjnr">
+          <div className="description">
+            <div className="description-child">
+              <h1>Calculator App</h1>
+              <p>
+                A calculator is a device that performs arithmetic operations on
+                numbers. Basic calculators can do only addition, subtraction,
+                multiplication and division mathematical calculations.
+              </p>
+              <div className="button" id="calculatorbutton">
+                <h5>HTML</h5>
+                <h5>CSS</h5>
+                <h5>JavaScript</h5>
+              </div>
+            </div>
+            <a href="https://siwes-projects-ru6t.vercel.app/" target="_blank">
+              <button className="calculatorbutt">VIEW PROJECT</button>
+            </a>
+          </div>
+          <div
+            className="imagecontainer calculator"
+            style={{
+              backgroundImage: `url(${Calculatorblur})`,
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "cover",
+            }}
+          >
+            <LazyLoadImage img src={Calculate} />
+          </div>
+        </div>
+        <div className="interactive containerjnr">
+          <div
+            className="imagecontainer inter"
+            style={{
+              backgroundImage: `url(${Interactiveblur})`,
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "cover",
+            }}
+          >
+            <LazyLoadImage img src={InteractiveForm} />
+          </div>
+          <div className="description">
+            <div className="description-child">
+              <h1>Interactive Card Details Form</h1>
+              <p>
+                In this site the form and see the card details update in real
+                time This site required DOM manipulation and form validation
+                skills.
+              </p>
+              <div className="button" id="interbutton">
+                <h5>HTML</h5>
+                <h5>CSS</h5>
+                <h5>JavaScript</h5>
+              </div>
+            </div>
+            <a href="">
+              <button className="interbutt">VIEW PROJECT</button>
+            </a>
+          </div>
+        </div>
+        <div className="newshomepage containerjnr">
+          <div className="description">
+            <div className="description-child">
+              <h1>News Homepage</h1>
+              <p>
+                This is a landing page for a news website. This site was created
+                with HTML, CSS and JavaScript.
+              </p>
+              <div className="button" id="newsbutton">
+                <h5>HTML</h5>
+                <h5>CSS</h5>
+                <h5>JavaScript</h5>
+              </div>
+            </div>
+            <a href="">
+              <button className="newsbutt">VIEW PROJECT</button>
+            </a>
+          </div>
+          <div
+            className="imagecontainer news"
+            style={{
+              backgroundImage: `url(${Newsblur})`,
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "cover",
+            }}
+          >
+            <LazyLoadImage img src={Newshomepage} />
           </div>
         </div>
         <div className="agecalculator containerjnr">
@@ -198,6 +297,36 @@ function Porfolio() {
             <a href="">
               <button className="bmibutt">VIEW PROJECT</button>
             </a>
+          </div>
+        </div>
+        <div className="newsletter containerjnr">
+          <div className="description">
+            <div className="description-child">
+              <h1>Newsletter Sign-up</h1>
+              <p>
+                This site is a site for newsletter sign up. It required skills of basic form structure,
+                validation, and submission. The success state was also an
+                excellent opportunity to work with DOM manipulation. 
+              </p>
+              <div className="button" id="letterbutton">
+                <h5>HTML</h5>
+                <h5>CSS</h5>
+                <h5>JavaScript</h5>
+              </div>
+            </div>
+            <a href="">
+              <button className="letterbutt">VIEW PROJECT</button>
+            </a>
+          </div>
+          <div
+            className="imagecontainer letter"
+            style={{
+              backgroundImage: `url(${Newletterblur})`,
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "cover",
+            }}
+          >
+            <LazyLoadImage img src={NewsLetter} />
           </div>
         </div>
       </div>
