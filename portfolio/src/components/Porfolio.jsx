@@ -1,6 +1,7 @@
 import React from "react";
 import Nav from "./Nav";
 import Navbottom from "./Navbottom";
+import Blur from "../images/porfolio/blur.jpg"
 import Bmicalculator from "../images/porfolio/bmicalculator.jpg"
 import Demo from "../images/porfolio/demo.png";
 import Planet from "../images/porfolio/planet.png"
@@ -11,7 +12,7 @@ function Porfolio() {
       <Nav />
       <div className="container">
       <div className="containerjnr">
-          <div className="imagecontainer planet">
+          <div className="imagecontainer planet" style={{backgroundImage: `url(${Blur})`}}>
             <img src={Planet} />
           </div>
           <div className="description">
