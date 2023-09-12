@@ -1,19 +1,23 @@
 import React from "react";
 import Nav from "./Nav";
 import Navbottom from "./Navbottom";
-import Blur from "../images/blur.jpg"
+import Blur from "../images/blur.jpg";
+import FSBlur from "../images/porfolio/blur4fs.jpg";
+import BMIBlur from "../images/porfolio/blur4bmi.jpg";
+import PlanetBlur from "../images/porfolio/blur4planets.jpg";
 import Bmicalculator from "../images/porfolio/bmicalculator.jpg"
 import Demo from "../images/porfolio/demo.png";
 import Planet from "../images/porfolio/planet.png"
 import Calculator from "../images/porfolio/desktop-completed.jpg";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 function Porfolio() {
   return (
     <div className="portfolio">
       <Nav />
       <div className="container">
       <div className="containerjnr">
-          <div className="imagecontainer planet" style={{backgroundImage: `url(${Blur})`}}>
-            <img src={Planet} />
+          <div className="imagecontainer planet" style={{backgroundImage: `url(${PlanetBlur})`, backgroundRepeat: "no-repeat", backgroundSize: "cover"}}>
+          <LazyLoadImage img src={Planet}/>
           </div>
           <div className="description">
             <div className="description-child">
@@ -32,8 +36,8 @@ function Porfolio() {
           </div>
         </div>
         <div className="agecalculator containerjnr">
-          <div className="imagecontainer calc">
-            <img src={Calculator} />
+          <div className="imagecontainer calc" style={{backgroundImage: `url(${Blur})`, backgroundRepeat: "no-repeat", backgroundSize: "cover"}}>
+          <LazyLoadImage img src={Calculator}/>
           </div>
           <div className="description">
             <div className="description-child">
@@ -66,13 +70,13 @@ function Porfolio() {
             </div>
             <a href=""><button className="demobutt">VIEW PROJECT</button></a>
           </div>
-          <div className="imagecontainer demo">
-            <img src={Demo} />
+          <div className="imagecontainer demo" style={{backgroundImage: `url(${FSBlur})`, backgroundRepeat: "no-repeat", backgroundSize: "cover"}}>
+            <LazyLoadImage img src={Demo} />
           </div>
         </div>
         <div className="bmicalculator containerjnr">
-          <div className="imagecontainer bmicalc">
-            <img src={Bmicalculator} />
+          <div className="imagecontainer bmicalc" style={{backgroundImage: `url(${BMIBlur})`, backgroundRepeat: "no-repeat", backgroundSize: "cover"}}>
+            < LazyLoadImage img src={Bmicalculator} />
           </div>
           <div className="description">
             <div className="description-child">
