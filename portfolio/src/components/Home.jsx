@@ -16,9 +16,9 @@ function Home() {
       <Nav />
       <div className='intro'>
         <div className='intro-text'><p>Hi, I am Sunday Marvellous.<br />
-        A Computer Engineering Covenant University Student.</p>
+        A Computer Engineering, Covenant University Student.</p>
         <br />
-      <span className='intro-explain'>This is a portfolio containing the projects I carried out during my 6 months SIWES. </span>
+      <span className='intro-explain'>This is portfolio contains some of the projects I developed during my 6 months SIWES. </span>
       </div>
       <img src={Homepic} alt='picture'/>
       </div>

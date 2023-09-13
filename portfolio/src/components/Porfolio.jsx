@@ -4,6 +4,8 @@ import Navbottom from "./Navbottom";
 import Interactiveblur from "../images/porfolio/interactiveblur.jpg";
 import InteractiveForm from "../images/porfolio/complete-state-desktop.jpg";
 import Blur from "../images/blur.jpg";
+import Blogblur from "../images/porfolio/blur4blog.jpg";
+import Blog from "../images/porfolio/blog.png" ;
 import NewsLetter from "../images/porfolio/desktop-design.jpg";
 import Newletterblur from "../images/porfolio/newsletterblur.png";
 import Newsblur from "../images/porfolio/newsblur.jpg";
@@ -327,6 +329,35 @@ function Porfolio() {
             }}
           >
             <LazyLoadImage img src={NewsLetter} />
+          </div>
+        </div>
+        <div className="blogsite containerjnr">
+          <div
+            className="imagecontainer blog"
+            style={{
+              backgroundImage: `url(${Blogblur})`,
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "cover",
+            }}
+          >
+            <LazyLoadImage img src={Blog} />
+          </div>
+          <div className="description">
+            <div className="description-child">
+              <h1>Blog Site</h1>
+              <p>
+              This site is a demo that shows a template for a fashion
+                blogsite. It was one of my second fashion blog I developed as a beginner. This site
+                was created with HTML and CSS
+              </p>
+              <div className="button" id="blogbutton">
+                <h5>HTML</h5>
+                <h5>CSS</h5>
+              </div>
+            </div>
+            <a href="https://single-page-blog-demo.vercel.app/" target="_blank">
+              <button className="blogbutt">VIEW PROJECT</button>
+            </a>
           </div>
         </div>
       </div>

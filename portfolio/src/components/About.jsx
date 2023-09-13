@@ -45,9 +45,9 @@ function About() {
           }}
           />
         </h2>
-        <p className='main-explanation'>I am Sunday Marvellous, a Computer Engineering Student in Covenant University. I have developed an interest in Front-End Development. This portfolio would be Portraying the <span>Front-end development and Programming</span> skills I have acquired in the 6 months of my SIWES at Ha-shem Limited.
+        <p className='main-explanation'>I am Sunday Marvellous, a Computer Engineering Student in Covenant University. I have developed an interest in Front-End Development. This portfolio would be Portraying the <span>Front-end development and Programming</span> skills I acquired during the 6 months period of my SIWES at Ha-shem Limited.
         <br />
-        This portfolio would contain projects I used HTML, CSS. JavaScript, Bootstrap, React, to build.</p>
+        This portfolio would contain projects for which I used HTML, CSS, SCSS, JavaScript, Bootstrap, React, to build.</p>
         </div>
      
         

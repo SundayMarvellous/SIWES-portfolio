@@ -207,4 +207,20 @@
             background-color: rgb(253, 83, 45);
         }
     }
+    .blog{
+        border: 1rem solid rgb(57, 1, 1);
+    }
+    .blogbutt{
+        &:hover{
+            color: white;
+            background-color: rgb(57, 1, 1);
+        }
+    }
+    #blogbutton{
+        h5:hover{
+            color: white;
+            background-color: rgb(57, 1, 1);
+        }
+        
+    }
 }
