@@ -6,6 +6,11 @@ import InteractiveForm from "../images/porfolio/complete-state-desktop.jpg";
 import Blur from "../images/blur.jpg";
 import Blogblur from "../images/porfolio/blur4blog.jpg";
 import Blog from "../images/porfolio/blog.png" ;
+import RealEstate from "../images/porfolio/realestate.png";
+import Realblur from "../images/porfolio/realblur.jpg";
+import Estate from "../images/porfolio/rlestate.png";
+import Estateblur from "../images/porfolio/rlblur.jpg";
+import Estate2 from "../images/porfolio/rlestate2.png";
 import NewsLetter from "../images/porfolio/desktop-design.jpg";
 import Newletterblur from "../images/porfolio/newsletterblur.png";
 import Newsblur from "../images/porfolio/newsblur.jpg";
@@ -138,7 +143,7 @@ function Porfolio() {
                 <h5>JavaScript</h5>
               </div>
             </div>
-            <a href="https://siwes-projects-ru6t.vercel.app/" target="_blank">
+            <a href="https://sundaymarvellous.github.io/Calculator-App/" target="_blank">
               <button className="calculatorbutt">VIEW PROJECT</button>
             </a>
           </div>
@@ -178,7 +183,7 @@ function Porfolio() {
                 <h5>JavaScript</h5>
               </div>
             </div>
-            <a href="">
+            <a href="https://sundaymarvellous.github.io/Interactive-Card-Details-Form/" target="_blank">
               <button className="interbutt">VIEW PROJECT</button>
             </a>
           </div>
@@ -197,7 +202,7 @@ function Porfolio() {
                 <h5>JavaScript</h5>
               </div>
             </div>
-            <a href="">
+            <a href="https://sundaymarvellous.github.io/News-Homepage/" target="_blank">
               <button className="newsbutt">VIEW PROJECT</button>
             </a>
           </div>
@@ -237,7 +242,7 @@ function Porfolio() {
                 <h5>JavaScript</h5>
               </div>
             </div>
-            <a href="">
+            <a href="https://sundaymarvellous.github.io/Age-Calculator-App/" target="_blank">
               <button className="calcbutt">VIEW PROJECT</button>
             </a>
           </div>
@@ -256,7 +261,7 @@ function Porfolio() {
                 <h5>CSS</h5>
               </div>
             </div>
-            <a href="">
+            <a href="https://sundaymarvellous.github.io/Single-Page-Site-Demo/" target="_blank">
               <button className="demobutt">VIEW PROJECT</button>
             </a>
           </div>
@@ -296,7 +301,7 @@ function Porfolio() {
                 <h5>JavaScript</h5>
               </div>
             </div>
-            <a href="">
+            <a href=" https://sundaymarvellous.github.io/BMI-Calculator-App/" target="_blank">
               <button className="bmibutt">VIEW PROJECT</button>
             </a>
           </div>
@@ -316,7 +321,7 @@ function Porfolio() {
                 <h5>JavaScript</h5>
               </div>
             </div>
-            <a href="https://sundaymarvellous.github.io/Newsletter-signup-/index.html">
+            <a href="https://sundaymarvellous.github.io/Newsletter-signup-/index.html" target="_blank">
               <button className="letterbutt">VIEW PROJECT</button>
             </a>
           </div>
@@ -355,9 +360,91 @@ function Porfolio() {
                 <h5>CSS</h5>
               </div>
             </div>
-            <a href="https://single-page-blog-demo.vercel.app/" target="_blank">
+            <a href="https://sundaymarvellous.github.io/Fashion-Blog/" target="_blank">
               <button className="blogbutt">VIEW PROJECT</button>
             </a>
+          </div>
+        </div>
+        <div className="realestate containerjnr">
+          <div className="description">
+            <div className="description-child">
+              <h1>Real-Estate Site</h1>
+              <p>
+              This is a digital space where realtors, home sellers, and homebuyers can get in touch to make a purchase or rent contract for a real estate item.
+              </p>
+              <div className="button" id="realbutton">
+                <h5>HTML</h5>
+                <h5>CSS</h5>
+                <h5>Bootstrap</h5>
+              </div>
+            </div>
+            <a href="https://sundaymarvellous.github.io/RealEstate/" target="_blank">
+              <button className="realbutt">VIEW PROJECT</button>
+            </a>
+          </div>
+          <div
+            className="imagecontainer real"
+            style={{
+              backgroundImage: `url(${Realblur})`,
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "cover",
+            }}
+          >
+            <LazyLoadImage img src={RealEstate} />
+          </div>
+        </div>
+        <div className="realestate containerjnr">
+          <div
+            className="imagecontainer estt"
+            style={{
+              backgroundImage: `url(${Estateblur})`,
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "cover",
+            }}
+          >
+            <LazyLoadImage img src={Estate} />
+          </div>
+          <div className="description">
+            <div className="description-child">
+              <h1>Real Estate Webpage</h1>
+              <p>
+              This is a digital space where realtors, home sellers, and homebuyers can get in touch to make a purchase or rent contract for a real estate item.
+              </p>
+              <div className="button" id="esttbutton">
+                <h5>HTML</h5>
+                <h5>CSS</h5>
+              </div>
+            </div>
+            <a href="https://sundaymarvellous.github.io/RealEstateWebpage/" target="_blank">
+              <button className="esttbutt">VIEW PROJECT</button>
+            </a>
+          </div>
+        </div>
+        <div className="realestate containerjnr">
+          <div className="description">
+            <div className="description-child">
+              <h1>Real-Estate Webpage2</h1>
+              <p>
+              This is a digital space where realtors, home sellers, and homebuyers can get in touch to make a purchase or rent contract for a real estate item.
+              </p>
+              <div className="button" id="estt2button">
+                <h5>HTML</h5>
+                <h5>CSS</h5>
+              </div>
+            </div>
+            <a href="https://sundaymarvellous.github.io/RealWebpage2/" target="_blank">
+              <button className="estt2butt">VIEW PROJECT</button>
+            </a>
+          </div>
+          <div
+            className="imagecontainer estt2"
+            style={{
+              backgroundImage: `url(${PlanetBlur})`,
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "cover",
+            }}
+          >
+            <LazyLoadImage img src={Estate2} />
           </div>
         </div>
       </div>
