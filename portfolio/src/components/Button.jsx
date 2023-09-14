@@ -24,7 +24,7 @@ function Button() {
     });
   return (
     <div>
-        <button type="submit" value="Send">SUBMIT</button>  
+        <button id="button" type="submit" value="Send">SUBMIT</button>  
     </div>
   )
 }

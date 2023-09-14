@@ -1,6 +1,5 @@
 import React, { useState, useRef } from "react";
-// import emailjs from '@emailjs/browser';
-import Button from "./Button";
+import emailjs from '@emailjs/browser';
 export const Form = () => {
     const form = useRef();
     
@@ -22,31 +21,18 @@ export const Form = () => {
     setInputs((values) => ({ ...values, [name]: value }));
   };
 
-//   const handleSubmit = (event) => {
-//     // event.preventDefault();
-//     //     // generate a five digit number for the contact_number variable
-//     //     this.contact_number.value = Math.random() * 100000 | 0;
-//     //     // these IDs from the previous steps
-//     //     emailjs.sendForm('contact_service', 'contact_form', this)
-//     //         .then(function() {
-//     //             console.log('SUCCESS!');
-//     //         }, function(error) {
-//     //             console.log('FAILED...', error);
-//     //         });
-//     // };
-//     event.preventDefault();
-//     // console.log(inputs);
-//     emailjs.sendForm('service_qi9ui3a', 'template_xenil8b', form.current, 
-//     'YOUR_PUBLIC_KEY')
-//   .then((result) => {
-//       console.log(result.text);
-//   }, (error) => {
-//       console.log(error.text);
-//   });
+  const handleSubmit = (event) => {
+     event.preventDefault();
+    emailjs.sendForm('service_qi9ui3a', 'template_5sszv79', form.current, 'MBgWyKLc79T5mPOQj')
+  .then((result) => {
+      console.log(result.text);
+  }, (error) => {
+      console.log(error.text);
+  });
 
-// }
+}
   return (
-    <form ref={form}>
+    <form ref={form} onSubmit={handleSubmit}>
       <h1>Like what you see?</h1>
       <h3>Let's get in touch!</h3>
       <p>
@@ -98,7 +84,7 @@ export const Form = () => {
             />
           </label>
         </div>
-        <Button />
+        <button type="submit" value="Send">SUBMIT</button>
       </div>
     </form>
   );
