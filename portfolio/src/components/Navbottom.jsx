@@ -32,8 +32,8 @@ function Navbottom() {
         </ul>   
         <div className='images'>
            <a href='https://github.com/SundayMarvellous' target='_blank'> <img src={Github} alt='github'/></a>
-           <a href='https://github.com/SundayMarvellous' target='_blank'> <img src={Linkedin} alt='linkedin'/></a>
-           <a href='https://github.com/SundayMarvellous' target='_blank'> <img src={Twitter} alt='twitter'/></a>
+           <a href='https://linkedin.com/sundaymarvellous' target='_blank'> <img src={Linkedin} alt='linkedin'/></a>
+           <a href='https://twitter.com/smarvellous03' target='_blank'> <img src={Twitter} alt='twitter'/></a>
         </div>
         </div>
        
