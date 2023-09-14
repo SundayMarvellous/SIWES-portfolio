@@ -1,7 +1,12 @@
 import React, { useState, useRef } from "react";
+// import { useNavigate } from "react-router-dom";
 import emailjs from '@emailjs/browser';
 export const Form = () => {
     const form = useRef();
+    // const navigate = useNavigate();
+    // const handleToSuccess = () => {
+    //   navigate("/success");
+    // };
     
   //   const [name, setName] = useState("");
   //   const [email, setEmail] = useState("");
@@ -23,11 +28,15 @@ export const Form = () => {
 
   const handleSubmit = (event) => {
      event.preventDefault();
+
     emailjs.sendForm('service_qi9ui3a', 'template_5sszv79', form.current, 'MBgWyKLc79T5mPOQj')
-  .then((result) => {
-      console.log(result.text);
+  .then((response) => {
+      // console.log(result.text);
+      alert('SENT!', response.status, response.text);
+      // navigate("/success");
   }, (error) => {
-      console.log(error.text);
+    alert('FAILED...', error);
+      // console.log(error.text);
   });
 
 }
@@ -84,7 +93,7 @@ export const Form = () => {
             />
           </label>
         </div>
-        <button type="submit" value="Send">SUBMIT</button>
+        <button type="submit" id="button" value="Send">SUBMIT</button>
       </div>
     </form>
   );

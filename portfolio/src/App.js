@@ -8,6 +8,7 @@ import Home from './components/Home';
 import About from './components/About';
 import Portfolio from './components/Porfolio';
 import Contact from './components/Contact';
+import Success from './components/Success';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/success" element={<Success />} />
         </Routes>
       </Router>
     </div>
