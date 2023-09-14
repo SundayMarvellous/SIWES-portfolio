@@ -3,6 +3,7 @@ import Nav from "./Nav";
 import Navbottom from "./Navbottom";
 import Bg from "../images/home.jpg";
 import blur from "../images/porfolio/interactiveblur.jpg";
+import Form from "./Form";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
 function Contact() {
@@ -33,8 +34,8 @@ function Contact() {
             attention to the details. Please feel free to look at the websites
             I've listed below and to get in touch with me using the form.
           </p>
-          <div>
-        
+          <div className="formdetails">
+            <Form />
           </div>
         </form>
       </div>
