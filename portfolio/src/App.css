@@ -406,26 +406,29 @@
   width: 33vw;
   height: 90vh;
 }
-.contact .main form {
+
+form {
   margin-top: 4rem;
   background-color: rgb(248, 58, 213);
   width: 50vw;
+  height: -moz-fit-content 80vh;
+  height: fit-content 80vh;
   padding: 3rem;
 }
-.contact .main form h1 {
+form h1 {
   font-family: "Dancing Script", cursive;
   font-size: 2.8rem;
 }
-.contact .main form h3 {
+form h3 {
   color: blue;
   margin: 1rem;
   font-size: 1.2rem;
 }
-.contact .main form p {
+form p {
   margin: 1rem;
   font-size: 1rem;
 }
-.contact .main form .formdetails {
+form .form-details {
   border: 1px solid white;
   border-radius: 10px;
   padding: 1rem 2.5rem;
@@ -434,7 +437,7 @@
   flex-direction: column;
   font-family: "Times New Roman", Times, serif;
 }
-.contact .main form .formdetails label {
+form .form-details label {
   font-size: 1rem;
   font-weight: 600;
   display: flex;
@@ -443,7 +446,7 @@
   gap: 0.5rem;
   margin-bottom: 1rem;
 }
-.contact .main form .formdetails input {
+form .form-details input {
   border: none;
   width: 100%;
   border: 1px solid white;
@@ -452,15 +455,15 @@
   background-color: rgb(248, 58, 213);
   font-family: "Times New Roman", Times, serif;
 }
-.contact .main form .formdetails input::-moz-placeholder {
+form .form-details input::-moz-placeholder {
   color: white;
   font-size: 1rem;
 }
-.contact .main form .formdetails input::placeholder {
+form .form-details input::placeholder {
   color: white;
   font-size: 1rem;
 }
-.contact .main form .formdetails textarea {
+form .form-details textarea {
   height: 3rem;
   width: 100%;
   border-radius: 5px;
@@ -468,15 +471,15 @@
   background-color: rgb(248, 58, 213);
   font-family: "Times New Roman", Times, serif;
 }
-.contact .main form .formdetails textarea::-moz-placeholder {
+form .form-details textarea::-moz-placeholder {
   color: white;
   font-size: 1rem;
 }
-.contact .main form .formdetails textarea::placeholder {
+form .form-details textarea::placeholder {
   color: white;
   font-size: 1rem;
 }
-.contact .main form .formdetails button {
+form .form-details button {
   padding: 0.5rem 1rem;
   background-color: white;
   border: none;
@@ -488,7 +491,7 @@
   position: relative;
   right: 0;
 }
-.contact .main form .formdetails button:hover {
+form .form-details button:hover {
   color: white;
   background-color: blue;
   box-shadow: 0 0 2px 2px blue;
