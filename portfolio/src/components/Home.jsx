@@ -22,7 +22,7 @@ function Home() {
         <div className='intro-text'><p>Hi, I am Sunday Marvellous.<br />
         A Computer Engineering, Covenant University Student.</p>
         <br />
-      <span className='intro-explain'>This is portfolio contains some of the projects I developed during my 6 months SIWES. </span>
+      <span className='intro-explain'>This portfolio contains some of the projects I developed during my 6 months SIWES. </span>
       </div>
       <div className="main-image" style={{backgroundImage: `url(${Aboutblur})`, backgroundRepeat: "no-repeat",  backgroundPosition: "center"}}>
          <LazyLoadImage img src={Aboutpic} className='aboutpic' alt='mypicture'/>
