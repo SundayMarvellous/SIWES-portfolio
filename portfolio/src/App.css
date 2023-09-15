@@ -185,6 +185,32 @@
     font-size: 0.8rem;
   }
 }
+@media screen and (max-width: 1300px) {
+  .home .intro {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+  .home .intro-text {
+    font-size: 1.2rem;
+  }
+  .home .intro-explain {
+    font-size: 1rem;
+  }
+  .home .intro img {
+    width: 70vw;
+  }
+  .home .getintouch {
+    font-size: 2rem;
+    margin-bottom: 5rem;
+  }
+  .home .getintouch button {
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
+  }
+}
 .Navbottom {
   bottom: 0;
   margin-left: -15vw;
@@ -326,8 +352,8 @@
     margin-top: 4rem;
   }
   .about .main-image {
-    width: 70vw;
-    height: 60%;
+    width: 50vw;
+    height: 50%;
     background-repeat: no-repeat;
   }
   .about .main-text {
@@ -811,4 +837,10 @@ body {
   background: rgb(59, 0, 59);
   color: white;
   overflow-x: hidden;
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    overflow-x: hidden;
+  }
 }/*# sourceMappingURL=App.css.map */
