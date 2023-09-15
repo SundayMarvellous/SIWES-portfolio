@@ -30,6 +30,9 @@ import Calculate from "../images/porfolio/calculator.png";
 import Calculator from "../images/porfolio/desktop-completed.jpg";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 function Porfolio() {
+  // const handleBlur = (event) => {
+  //   const blurDivs = event.target.className
+  // }
   return (
     <div className="portfolio">
       <Nav />

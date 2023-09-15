@@ -1,9 +1,13 @@
 import React from 'react'
 import Nav from './Nav'
 // import Perfect from '../images/home.jpg';
+import Aboutpic from '../images/aboutpic3.jpg';
+import Aboutblur from "../images/porfolio/aboutblur.jpg";
 import Homepic from '../images/homepagepic2.jpg';
 import Navbottom from './Navbottom';
 import { useNavigate } from "react-router-dom";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
 
 
 function Home() {
@@ -20,7 +24,9 @@ function Home() {
         <br />
       <span className='intro-explain'>This is portfolio contains some of the projects I developed during my 6 months SIWES. </span>
       </div>
-      <img src={Homepic} alt='picture'/>
+      <div className="main-image" style={{backgroundImage: `url(${Aboutblur})`, backgroundRepeat: "no-repeat",  backgroundPosition: "center"}}>
+         <LazyLoadImage img src={Aboutpic} className='aboutpic' alt='mypicture'/>
+        </div>
       </div>
       <div className='getintouch'>
         <p>Interested in <br />working together?</p>

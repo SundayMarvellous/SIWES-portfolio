@@ -409,7 +409,7 @@
 
 form {
   margin-top: 4rem;
-  background-color: rgb(248, 58, 213);
+  background-color: white;
   width: 50vw;
   height: -moz-fit-content 80vh;
   height: fit-content 80vh;
@@ -418,18 +418,20 @@ form {
 form h1 {
   font-family: "Dancing Script", cursive;
   font-size: 2.8rem;
+  color: rgb(59, 0, 59);
 }
 form h3 {
-  color: blue;
+  color: rgb(248, 58, 213);
   margin: 1rem;
   font-size: 1.2rem;
 }
 form p {
   margin: 1rem;
   font-size: 1rem;
+  color: rgb(59, 0, 59);
 }
 form .form-details {
-  border: 1px solid white;
+  border: 2px solid rgb(59, 0, 59);
   border-radius: 10px;
   padding: 1rem 2.5rem;
   margin: 1rem;
@@ -445,50 +447,60 @@ form .form-details label {
   align-items: flex-start;
   gap: 0.5rem;
   margin-bottom: 1rem;
+  color: rgb(59, 0, 59);
 }
 form .form-details input {
   border: none;
   width: 100%;
-  border: 1px solid white;
+  border: 1px solid rgb(59, 0, 59);
   border-radius: 5px;
   padding: 0.4rem;
-  color: white;
+  color: rgb(59, 0, 59);
   font-size: 1rem;
-  background-color: rgb(248, 58, 213);
+  background-color: white;
   font-family: "Times New Roman", Times, serif;
 }
 form .form-details input::-moz-placeholder {
-  color: white;
+  color: rgb(59, 0, 59);
   font-size: 1rem;
 }
 form .form-details input::placeholder {
-  color: white;
+  color: rgb(59, 0, 59);
   font-size: 1rem;
+}
+form .form-details input:focus {
+  outline: none;
+  border: 2px solid rgb(248, 58, 213);
 }
 form .form-details textarea {
   height: 3rem;
   width: 100%;
   border-radius: 5px;
-  border: 1px solid white;
-  color: white;
+  border: 1px solid rgb(59, 0, 59);
+  color: rgb(59, 0, 59);
   font-size: 1rem;
-  background-color: rgb(248, 58, 213);
+  background-color: white;
   font-family: "Times New Roman", Times, serif;
 }
 form .form-details textarea::-moz-placeholder {
-  color: white;
+  color: rgb(59, 0, 59);
   font-size: 1rem;
 }
 form .form-details textarea::placeholder {
-  color: white;
+  color: rgb(59, 0, 59);
   font-size: 1rem;
+}
+form .form-details textarea:focus {
+  outline: none;
+  border: 2px solid rgb(248, 58, 213);
 }
 form .form-details button {
   padding: 0.5rem 1rem;
-  background-color: white;
+  background-color: rgb(59, 0, 59);
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  color: white;
   font-family: "Times New Roman", Times, serif;
   letter-spacing: 1px;
   font-size: 1rem;
@@ -496,9 +508,9 @@ form .form-details button {
   right: 0;
 }
 form .form-details button:hover {
-  color: white;
-  background-color: blue;
-  box-shadow: 0 0 2px 2px blue;
+  color: rgb(59, 0, 59);
+  background-color: rgb(248, 58, 213);
+  box-shadow: 0 0 2px 2px rgb(248, 58, 213);
 }
 
 * {
