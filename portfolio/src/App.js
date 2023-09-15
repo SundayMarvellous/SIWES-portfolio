@@ -2,7 +2,7 @@ import './App.css';
 import {
   BrowserRouter as Router,
   Routes,
-  Route,NavLink, Redirect,Navigate
+  Route,NavLink, Redirect,Navigate, Form
 } from "react-router-dom";
 import Home from './components/Home';
 import About from './components/About';
@@ -20,6 +20,7 @@ function App() {
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/success" element={<Success />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </Router>
     </div>

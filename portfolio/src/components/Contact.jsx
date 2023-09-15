@@ -3,7 +3,7 @@ import Nav from "./Nav";
 import Navbottom from "./Navbottom";
 import Bg from "../images/home.jpg";
 import blur from "../images/porfolio/interactiveblur.jpg";
-import { Form } from "./Form";
+import Form  from "./Form";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
 function Contact() {

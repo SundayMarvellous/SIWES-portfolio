@@ -1,9 +1,9 @@
 import React, { useState, useRef } from "react";
-// import { useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import emailjs from '@emailjs/browser';
-export const Form = () => {
+export default function Form () {
     const form = useRef();
-    // const navigate = useNavigate();
+    const navigate = useNavigate();
     // const handleToSuccess = () => {
     //   navigate("/success");
     // };
@@ -32,8 +32,8 @@ export const Form = () => {
     emailjs.sendForm('service_qi9ui3a', 'template_5sszv79', form.current, 'MBgWyKLc79T5mPOQj')
   .then((response) => {
       // console.log(result.text);
-      alert('SENT!', response.status, response.text);
-      // navigate("/success");
+      // alert('SENT!', response.status, response.text).then ({Success});
+      navigate('/success')
   }, (error) => {
     alert('FAILED...', error);
       // console.log(error.text);
