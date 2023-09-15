@@ -32,11 +32,9 @@ function Nav() {
           <span className="Formlink" onClick={handleToContact}><li>CONTACT ME</li></span>
         </ul>
         <div class="hamburger" onClick={hamburger}>
-          <div>
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
-          </div>
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
         </div>
         {isShown && (
         <ul className='sidebar'>
