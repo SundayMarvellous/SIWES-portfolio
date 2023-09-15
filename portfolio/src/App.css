@@ -132,7 +132,7 @@
 .home .getintouch {
   margin-top: 3rem;
   margin-bottom: 10rem;
-  font-family: "Lobster Two", cursive;
+  font-family: "Times New Roman", Times, serif;
   font-size: 3rem;
   font-style: italic;
   display: flex;
@@ -181,7 +181,8 @@
   }
   .home .getintouch button {
     padding: 0.5rem 1rem;
-    font-size: 0.8rem;
+    font-size: 1rem;
+    font-weight: 800;
   }
 }
 @media screen and (max-width: 1300px) {
