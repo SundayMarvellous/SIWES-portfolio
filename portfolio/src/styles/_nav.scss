@@ -12,7 +12,7 @@
             color: rgb(255, 83, 232);
             }
         }
-        ul{
+        .navbar{
             text-decoration: none;
             list-style-type: none;
             display: flex;
@@ -24,6 +24,79 @@
                     color: rgb(255, 83, 232);
                     font-size: 1.5rem;
                 }
+            }
+        }
+        .sidebar{
+            display: none;
+            width: 50vw;
+            // height: 40vh;
+            position: fixed;
+            top: 20vh;
+            right: -600px;
+            transition: left 0.3s ;
+            padding: 3rem;
+            li{
+                cursor: pointer;
+                &:hover{
+                    color: rgb(255, 83, 232);
+                    font-size: 1.2rem;
+                }
+            }
+        }
+        .hamburger{
+            display: none;
+            cursor: pointer;
+            &:hover{
+                div{
+                    background-color: rgb(255, 83, 232);
+                }
+                }
+
+            div{
+                width: 25px;
+                margin: 5px;
+                height: 3px;
+                background-color: white;
+               
+            }
+        }
+    }
+}
+@media screen and (max-width: 600px) {
+    .Nav{
+        nav{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+          
+            h1{
+                font-size: 3rem;
+                cursor: pointer;
+                &:hover{
+                color: rgb(255, 83, 232);
+                }
+            }
+            .navbar{
+               display: none;
+            }
+            .sidebar{
+                display: block;
+                text-decoration: none;
+                list-style-type: none;
+                display: flex;
+                flex-direction: column;
+                font-size: 1rem;
+                gap: 2rem;
+                background-color: white;
+                color: rgb(59, 0, 59);
+                right: 0;
+                position: absolute;
+                z-index: 10;
+            }
+            .hamburger{
+                display: block;
+                // margin-top: 20px;
             }
         }
     }

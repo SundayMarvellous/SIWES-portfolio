@@ -11,21 +11,85 @@
 .Nav nav h1:hover {
   color: rgb(255, 83, 232);
 }
-.Nav nav ul {
+.Nav nav .navbar {
   text-decoration: none;
   list-style-type: none;
   display: flex;
   font-size: 1rem;
   gap: 2rem;
 }
-.Nav nav ul li {
+.Nav nav .navbar li {
   cursor: pointer;
 }
-.Nav nav ul li:hover {
+.Nav nav .navbar li:hover {
   color: rgb(255, 83, 232);
   font-size: 1.5rem;
 }
+.Nav nav .sidebar {
+  display: none;
+  width: 50vw;
+  position: fixed;
+  top: 20vh;
+  right: -600px;
+  transition: left 0.3s;
+  padding: 3rem;
+}
+.Nav nav .sidebar li {
+  cursor: pointer;
+}
+.Nav nav .sidebar li:hover {
+  color: rgb(255, 83, 232);
+  font-size: 1.2rem;
+}
+.Nav nav .hamburger {
+  display: none;
+  cursor: pointer;
+}
+.Nav nav .hamburger:hover div {
+  background-color: rgb(255, 83, 232);
+}
+.Nav nav .hamburger div {
+  width: 25px;
+  margin: 5px;
+  height: 3px;
+  background-color: white;
+}
 
+@media screen and (max-width: 600px) {
+  .Nav nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .Nav nav h1 {
+    font-size: 3rem;
+    cursor: pointer;
+  }
+  .Nav nav h1:hover {
+    color: rgb(255, 83, 232);
+  }
+  .Nav nav .navbar {
+    display: none;
+  }
+  .Nav nav .sidebar {
+    display: block;
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    gap: 2rem;
+    background-color: white;
+    color: rgb(59, 0, 59);
+    right: 0;
+    position: absolute;
+    z-index: 10;
+  }
+  .Nav nav .hamburger {
+    display: block;
+  }
+}
 .home {
   display: flex;
   flex-direction: column;
