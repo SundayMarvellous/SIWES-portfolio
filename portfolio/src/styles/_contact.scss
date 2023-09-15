@@ -13,3 +13,23 @@
         }
     }
 }
+
+@media screen and (max-width: 800px) {
+    .contact{
+        .main{
+            margin-top: 2rem;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            &-image{
+                height: fit-content;
+                width: fit-content;
+                margin: auto;
+               .image{
+                width: 50vw;
+                height: 50vh;
+               }
+            }
+        }
+    }
+}

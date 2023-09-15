@@ -98,3 +98,22 @@ form{
         }
     }
 }
+
+
+@media screen and (max-width: 800px) {
+    form{
+        margin-top: 0;
+        width: 100%;
+        height: fit-content 80vh;
+        padding: 1rem;
+       
+    }
+    .form-details{
+        border: 2px solid rgb(59, 0, 59);
+        // border-style: double   ;
+        border-radius: 10px;
+        padding: 1rem 1.5rem;
+        margin: 1rem;
+    }
+    
+}

@@ -69,7 +69,7 @@ function Porfolio() {
           </div>
         </div>
         <div className="entertainment containerjnr">
-          <div className="description">
+          <div className="description" id="no">
             <div className="description-child">
               <h1>Entertainment Web App</h1>
               <p>
@@ -97,6 +97,25 @@ function Porfolio() {
             }}
           >
             <LazyLoadImage img src={Entertainment} />
+          </div>
+          <div className="description" id="side">
+            <div className="description-child">
+              <h1>Entertainment Web App</h1>
+              <p>
+                This multi-page entertainment web app plays a vital role in
+                bringing engaging and enjoyable content to users, in form of
+                movies and tv series. It had me working with JSON data, routing,
+                state management, and search functionality.
+              </p>
+              <div className="button" id="enterbutton">
+                <h5>React</h5>
+                <h5>SCSS</h5>
+                <h5>JavaScript</h5>
+              </div>
+            </div>
+            <a href="https://siwes-projects-ru6t.vercel.app/" target="_blank">
+              <button className="enterbutt">VIEW PROJECT</button>
+            </a>
           </div>
         </div>
         <div className="containerjnr">
@@ -132,7 +151,7 @@ function Porfolio() {
           </div>
         </div>
         <div className="calculate containerjnr">
-          <div className="description">
+          <div className="description" id="no">
             <div className="description-child">
               <h1>Calculator App</h1>
               <p>
@@ -159,6 +178,24 @@ function Porfolio() {
             }}
           >
             <LazyLoadImage img src={Calculate} />
+          </div>
+          <div className="description" id="side">
+            <div className="description-child">
+              <h1>Calculator App</h1>
+              <p>
+                A calculator is a device that performs arithmetic operations on
+                numbers. Basic calculators can do only addition, subtraction,
+                multiplication and division mathematical calculations.
+              </p>
+              <div className="button" id="calculatorbutton">
+                <h5>HTML</h5>
+                <h5>CSS</h5>
+                <h5>JavaScript</h5>
+              </div>
+            </div>
+            <a href="https://sundaymarvellous.github.io/Calculator-App/" target="_blank">
+              <button className="calculatorbutt">VIEW PROJECT</button>
+            </a>
           </div>
         </div>
         <div className="interactive containerjnr">
@@ -192,7 +229,7 @@ function Porfolio() {
           </div>
         </div>
         <div className="newshomepage containerjnr">
-          <div className="description">
+          <div className="description" id="no">
             <div className="description-child">
               <h1>News Homepage</h1>
               <p>
@@ -218,6 +255,23 @@ function Porfolio() {
             }}
           >
             <LazyLoadImage img src={Newshomepage} />
+          </div>
+          <div className="description" id="side">
+            <div className="description-child">
+              <h1>News Homepage</h1>
+              <p>
+                This is a landing page for a news website. This site was created
+                with HTML, CSS and JavaScript.
+              </p>
+              <div className="button" id="newsbutton">
+                <h5>HTML</h5>
+                <h5>CSS</h5>
+                <h5>JavaScript</h5>
+              </div>
+            </div>
+            <a href="https://sundaymarvellous.github.io/News-Homepage/" target="_blank">
+              <button className="newsbutt">VIEW PROJECT</button>
+            </a>
           </div>
         </div>
         <div className="agecalculator containerjnr">
@@ -251,7 +305,7 @@ function Porfolio() {
           </div>
         </div>
         <div className="demosite containerjnr">
-          <div className="description">
+          <div className="description" id="no">
             <div className="description-child">
               <h1>Single Page Blog demo</h1>
               <p>
@@ -277,6 +331,23 @@ function Porfolio() {
             }}
           >
             <LazyLoadImage img src={Demo} />
+          </div>
+          <div className="description" id="side">
+            <div className="description-child">
+              <h1>Single Page Blog demo</h1>
+              <p>
+                This site is a demo that shows a template for a fashion
+                blogsite. It was one of my first works as a beginner. This site
+                was created with HTML and CSS
+              </p>
+              <div className="button" id="demobutton">
+                <h5>HTML</h5>
+                <h5>CSS</h5>
+              </div>
+            </div>
+            <a href="https://sundaymarvellous.github.io/Single-Page-Site-Demo/" target="_blank">
+              <button className="demobutt">VIEW PROJECT</button>
+            </a>
           </div>
         </div>
         <div className="bmicalculator containerjnr">
@@ -310,7 +381,7 @@ function Porfolio() {
           </div>
         </div>
         <div className="newsletter containerjnr">
-          <div className="description">
+          <div className="description" id="no">
             <div className="description-child">
               <h1>Newsletter Sign-up</h1>
               <p>
@@ -337,6 +408,24 @@ function Porfolio() {
             }}
           >
             <LazyLoadImage img src={NewsLetter} />
+          </div>
+          <div className="description" id="side">
+            <div className="description-child">
+              <h1>Newsletter Sign-up</h1>
+              <p>
+                This site is a site for newsletter sign up. It required skills of basic form structure,
+                validation, and submission. The success state was also an
+                excellent opportunity to work with DOM manipulation. 
+              </p>
+              <div className="button" id="letterbutton">
+                <h5>HTML</h5>
+                <h5>CSS</h5>
+                <h5>JavaScript</h5>
+              </div>
+            </div>
+            <a href="https://sundaymarvellous.github.io/Newsletter-signup-/index.html" target="_blank">
+              <button className="letterbutt">VIEW PROJECT</button>
+            </a>
           </div>
         </div>
         <div className="blogsite containerjnr">
@@ -369,7 +458,7 @@ function Porfolio() {
           </div>
         </div>
         <div className="realestate containerjnr">
-          <div className="description">
+          <div className="description" id="no">
             <div className="description-child">
               <h1>Real-Estate Site</h1>
               <p>
@@ -394,6 +483,22 @@ function Porfolio() {
             }}
           >
             <LazyLoadImage img src={RealEstate} />
+          </div>
+          <div className="description" id="side">
+            <div className="description-child">
+              <h1>Real-Estate Site</h1>
+              <p>
+              This is a digital space where realtors, home sellers, and homebuyers can get in touch to make a purchase or rent contract for a real estate item.
+              </p>
+              <div className="button" id="realbutton">
+                <h5>HTML</h5>
+                <h5>CSS</h5>
+                <h5>Bootstrap</h5>
+              </div>
+            </div>
+            <a href="https://sundaymarvellous.github.io/RealEstate/" target="_blank">
+              <button className="realbutt">VIEW PROJECT</button>
+            </a>
           </div>
         </div>
         <div className="realestate containerjnr">
@@ -424,7 +529,7 @@ function Porfolio() {
           </div>
         </div>
         <div className="realestate containerjnr">
-          <div className="description">
+          <div className="description" id="no">
             <div className="description-child">
               <h1>Real-Estate Webpage2</h1>
               <p>
@@ -448,6 +553,21 @@ function Porfolio() {
             }}
           >
             <LazyLoadImage img src={Estate2} />
+          </div>
+          <div className="description" id="side">
+            <div className="description-child">
+              <h1>Real-Estate Webpage2</h1>
+              <p>
+              This is a digital space where realtors, home sellers, and homebuyers can get in touch to make a purchase or rent contract for a real estate item.
+              </p>
+              <div className="button" id="estt2button">
+                <h5>HTML</h5>
+                <h5>CSS</h5>
+              </div>
+            </div>
+            <a href="https://sundaymarvellous.github.io/RealWebpage2/" target="_blank">
+              <button className="estt2butt">VIEW PROJECT</button>
+            </a>
           </div>
         </div>
       </div>
