@@ -492,7 +492,7 @@
   height: 100%;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   .contact .main {
     display: flex;
     flex-direction: column;
@@ -531,6 +531,7 @@ form p {
   margin: 1rem;
   font-size: 1rem;
   color: rgb(59, 0, 59);
+  line-height: 25px;
 }
 form .form-details {
   border: 2px solid rgb(59, 0, 59);
@@ -615,7 +616,7 @@ form .form-details button:hover {
   box-shadow: 0 0 2px 2px rgb(248, 58, 213);
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   form {
     margin-top: 0;
     width: 80vw;

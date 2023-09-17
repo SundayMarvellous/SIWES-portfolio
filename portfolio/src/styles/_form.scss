@@ -18,6 +18,7 @@ form{
         margin: 1rem;
         font-size: 1rem;
         color: rgb(59, 0, 59);
+        line-height: 25px;
     }
     .form-details{
         border: 2px solid rgb(59, 0, 59);
@@ -100,7 +101,7 @@ form{
 }
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
     form{
         margin-top: 0;
         width: 80vw;
