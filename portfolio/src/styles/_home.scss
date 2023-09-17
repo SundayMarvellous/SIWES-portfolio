@@ -7,6 +7,9 @@
     justify-content: space-between;
     // margin-top: 5vh;
     .intro{
+        .main-image{
+            margin-top: 20vh;
+        }
         &-text{
             font-size: 3rem;
             // overflow: hidden;
@@ -33,7 +36,6 @@
             margin-top: 1rem;
         }
         img{
-        margin-top: 20vh;
             width: 78vw;
             box-shadow: 0 0 12px 2px rgb(255, 83, 232);
             &:hover{

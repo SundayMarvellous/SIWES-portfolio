@@ -19,7 +19,7 @@ function Home() {
     <div className='home'>
       <Nav />
       <div className='intro'>
-      <div className="main-image" style={{backgroundImage: `url(${Aboutblur})`, backgroundRepeat: "no-repeat",  backgroundPosition: "center"}}>
+      <div className="main-image" style={{backgroundImage: `url(${Aboutblur})`, backgroundRepeat: "no-repeat",  backgroundPosition: "center", backgroundSize: "cover"}}>
          <LazyLoadImage img src={Aboutpic} className='aboutpic' alt='mypicture'/>
         </div>
         <div className='intro-text'>

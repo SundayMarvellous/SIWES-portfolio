@@ -30,41 +30,38 @@ import Calculate from "../images/porfolio/calculator.png";
 import Calculator from "../images/porfolio/desktop-completed.jpg";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 function Porfolio() {
-  // const handleBlur = (event) => {
-  //   const blurDivs = event.target.className
-  // }
+ 
   return (
     <div className="portfolio">
       <Nav />
       <div className="container">
-        <div className="containerjnr">
+      <div className="bmicalculator containerjnr">
           <div
-            className="imagecontainer planet"
+            className="imagecontainer bmicalc"
             style={{
-              backgroundImage: `url(${PlanetBlur})`,
+              backgroundImage: `url(${BMIBlur})`,
               backgroundRepeat: "no-repeat",
               backgroundSize: "cover",
             }}
           >
-            <LazyLoadImage img src={Planet} />
+            <LazyLoadImage img src={Bmicalculator} />
           </div>
           <div className="description">
             <div className="description-child">
-              <h1>Planet Facts Site</h1>
+              <h1>BMI Calculator App</h1>
               <p>
-                This site provides information about how the planets in Solar
-                System are gravitationally to the Sun and the objects that orbit
-                it. This is an 8-page fact site for all planets in our solar
-                system.
+                Body mass index (BMI) is a tool that healthcare providers use to
+                estimate the amount of body fat by using your height and weight
+                measurements. This app required layout, JS and HTML form skills.
               </p>
-              <div className="button" id="planetbutton">
+              <div className="button" id="bmibutton">
                 <h5>HTML</h5>
                 <h5>CSS</h5>
                 <h5>JavaScript</h5>
               </div>
             </div>
-            <a href="https://siwes-projects.vercel.app/" target="_blank">
-              <button className="planetbutt">VIEW PROJECT</button>
+            <a href=" https://sundaymarvellous.github.io/BMI-Calculator-App/" target="_blank">
+              <button className="bmibutt">VIEW PROJECT</button>
             </a>
           </div>
         </div>
@@ -120,96 +117,37 @@ function Porfolio() {
         </div>
         <div className="containerjnr">
           <div
-            className="imagecontainer todo"
+            className="imagecontainer planet"
             style={{
-              backgroundImage: `url(${Todoblur})`,
+              backgroundImage: `url(${PlanetBlur})`,
               backgroundRepeat: "no-repeat",
               backgroundSize: "cover",
             }}
           >
-            <LazyLoadImage img src={Todo} />
+            <LazyLoadImage img src={Planet} />
           </div>
           <div className="description">
             <div className="description-child">
-              <h1>To Do App</h1>
+              <h1>Planet Facts Site</h1>
               <p>
-                This app helps you create a list of everything you need to do
-                written down so you don’t forget anything important. By
-                prioritising the tasks in the list you plan the order in which
-                you’re going to do them and can quickly see what needs your
-                immediate attention.
+                This site provides information about how the planets in Solar
+                System are gravitationally to the Sun and the objects that orbit
+                it. This is an 8-page fact site for all planets in our solar
+                system.
               </p>
-              <div className="button" id="todobutton">
+              <div className="button" id="planetbutton">
                 <h5>HTML</h5>
                 <h5>CSS</h5>
                 <h5>JavaScript</h5>
               </div>
             </div>
-            <a href="https://siwes-projects-cuqy.vercel.app/" target="_blank">
-              <button className="todobutt">VIEW PROJECT</button>
-            </a>
-          </div>
-        </div>
-        <div className="calculate containerjnr">
-          <div className="description" id="no">
-            <div className="description-child">
-              <h1>Calculator App</h1>
-              <p>
-                A calculator is a device that performs arithmetic operations on
-                numbers. Basic calculators can do only addition, subtraction,
-                multiplication and division mathematical calculations.
-              </p>
-              <div className="button" id="calculatorbutton">
-                <h5>HTML</h5>
-                <h5>CSS</h5>
-                <h5>JavaScript</h5>
-              </div>
-            </div>
-            <a href="https://sundaymarvellous.github.io/Calculator-App/" target="_blank">
-              <button className="calculatorbutt">VIEW PROJECT</button>
-            </a>
-          </div>
-          <div
-            className="imagecontainer calculator"
-            style={{
-              backgroundImage: `url(${Calculatorblur})`,
-              backgroundRepeat: "no-repeat",
-              backgroundSize: "cover",
-            }}
-          >
-            <LazyLoadImage img src={Calculate} />
-          </div>
-          <div className="description" id="side">
-            <div className="description-child">
-              <h1>Calculator App</h1>
-              <p>
-                A calculator is a device that performs arithmetic operations on
-                numbers. Basic calculators can do only addition, subtraction,
-                multiplication and division mathematical calculations.
-              </p>
-              <div className="button" id="calculatorbutton">
-                <h5>HTML</h5>
-                <h5>CSS</h5>
-                <h5>JavaScript</h5>
-              </div>
-            </div>
-            <a href="https://sundaymarvellous.github.io/Calculator-App/" target="_blank">
-              <button className="calculatorbutt">VIEW PROJECT</button>
+            <a href="https://siwes-projects.vercel.app/" target="_blank">
+              <button className="planetbutt">VIEW PROJECT</button>
             </a>
           </div>
         </div>
         <div className="interactive containerjnr">
-          <div
-            className="imagecontainer inter"
-            style={{
-              backgroundImage: `url(${Interactiveblur})`,
-              backgroundRepeat: "no-repeat",
-              backgroundSize: "cover",
-            }}
-          >
-            <LazyLoadImage img src={InteractiveForm} />
-          </div>
-          <div className="description">
+        <div className="description" id="no">
             <div className="description-child">
               <h1>Interactive Card Details Form</h1>
               <p>
@@ -227,50 +165,32 @@ function Porfolio() {
               <button className="interbutt">VIEW PROJECT</button>
             </a>
           </div>
-        </div>
-        <div className="newshomepage containerjnr">
-          <div className="description" id="no">
-            <div className="description-child">
-              <h1>News Homepage</h1>
-              <p>
-                This is a landing page for a news website. This site was created
-                with HTML, CSS and JavaScript.
-              </p>
-              <div className="button" id="newsbutton">
-                <h5>HTML</h5>
-                <h5>CSS</h5>
-                <h5>JavaScript</h5>
-              </div>
-            </div>
-            <a href="https://sundaymarvellous.github.io/News-Homepage/" target="_blank">
-              <button className="newsbutt">VIEW PROJECT</button>
-            </a>
-          </div>
           <div
-            className="imagecontainer news"
+            className="imagecontainer inter"
             style={{
-              backgroundImage: `url(${Newsblur})`,
+              backgroundImage: `url(${Interactiveblur})`,
               backgroundRepeat: "no-repeat",
               backgroundSize: "cover",
             }}
           >
-            <LazyLoadImage img src={Newshomepage} />
+            <LazyLoadImage img src={InteractiveForm} />
           </div>
           <div className="description" id="side">
             <div className="description-child">
-              <h1>News Homepage</h1>
+              <h1>Interactive Card Details Form</h1>
               <p>
-                This is a landing page for a news website. This site was created
-                with HTML, CSS and JavaScript.
+                In this site the form and see the card details update in real
+                time This site required DOM manipulation and form validation
+                skills.
               </p>
-              <div className="button" id="newsbutton">
+              <div className="button" id="interbutton">
                 <h5>HTML</h5>
                 <h5>CSS</h5>
                 <h5>JavaScript</h5>
               </div>
             </div>
-            <a href="https://sundaymarvellous.github.io/News-Homepage/" target="_blank">
-              <button className="newsbutt">VIEW PROJECT</button>
+            <a href="https://sundaymarvellous.github.io/Interactive-Card-Details-Form/" target="_blank">
+              <button className="interbutt">VIEW PROJECT</button>
             </a>
           </div>
         </div>
@@ -301,82 +221,6 @@ function Porfolio() {
             </div>
             <a href="https://sundaymarvellous.github.io/Age-Calculator-App/" target="_blank">
               <button className="calcbutt">VIEW PROJECT</button>
-            </a>
-          </div>
-        </div>
-        <div className="demosite containerjnr">
-          <div className="description" id="no">
-            <div className="description-child">
-              <h1>Single Page Blog demo</h1>
-              <p>
-                This site is a demo that shows a template for a fashion
-                blogsite. It was one of my first works as a beginner. This site
-                was created with HTML and CSS
-              </p>
-              <div className="button" id="demobutton">
-                <h5>HTML</h5>
-                <h5>CSS</h5>
-              </div>
-            </div>
-            <a href="https://sundaymarvellous.github.io/Single-Page-Site-Demo/" target="_blank">
-              <button className="demobutt">VIEW PROJECT</button>
-            </a>
-          </div>
-          <div
-            className="imagecontainer demo"
-            style={{
-              backgroundImage: `url(${FSBlur})`,
-              backgroundRepeat: "no-repeat",
-              backgroundSize: "cover",
-            }}
-          >
-            <LazyLoadImage img src={Demo} />
-          </div>
-          <div className="description" id="side">
-            <div className="description-child">
-              <h1>Single Page Blog demo</h1>
-              <p>
-                This site is a demo that shows a template for a fashion
-                blogsite. It was one of my first works as a beginner. This site
-                was created with HTML and CSS
-              </p>
-              <div className="button" id="demobutton">
-                <h5>HTML</h5>
-                <h5>CSS</h5>
-              </div>
-            </div>
-            <a href="https://sundaymarvellous.github.io/Single-Page-Site-Demo/" target="_blank">
-              <button className="demobutt">VIEW PROJECT</button>
-            </a>
-          </div>
-        </div>
-        <div className="bmicalculator containerjnr">
-          <div
-            className="imagecontainer bmicalc"
-            style={{
-              backgroundImage: `url(${BMIBlur})`,
-              backgroundRepeat: "no-repeat",
-              backgroundSize: "cover",
-            }}
-          >
-            <LazyLoadImage img src={Bmicalculator} />
-          </div>
-          <div className="description">
-            <div className="description-child">
-              <h1>BMI Calculator App</h1>
-              <p>
-                Body mass index (BMI) is a tool that healthcare providers use to
-                estimate the amount of body fat by using your height and weight
-                measurements. This app required layout, JS and HTML form skills.
-              </p>
-              <div className="button" id="bmibutton">
-                <h5>HTML</h5>
-                <h5>CSS</h5>
-                <h5>JavaScript</h5>
-              </div>
-            </div>
-            <a href=" https://sundaymarvellous.github.io/BMI-Calculator-App/" target="_blank">
-              <button className="bmibutt">VIEW PROJECT</button>
             </a>
           </div>
         </div>
@@ -428,6 +272,162 @@ function Porfolio() {
             </a>
           </div>
         </div>
+        <div className="calculate containerjnr">
+          <div
+            className="imagecontainer calculator"
+            style={{
+              backgroundImage: `url(${Calculatorblur})`,
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "cover",
+            }}
+          >
+            <LazyLoadImage img src={Calculate} />
+          </div>
+          <div className="description">
+            <div className="description-child">
+              <h1>Calculator App</h1>
+              <p>
+                A calculator is a device that performs arithmetic operations on
+                numbers. Basic calculators can do only addition, subtraction,
+                multiplication and division mathematical calculations.
+              </p>
+              <div className="button" id="calculatorbutton">
+                <h5>HTML</h5>
+                <h5>CSS</h5>
+                <h5>JavaScript</h5>
+              </div>
+            </div>
+            <a href="https://sundaymarvellous.github.io/Calculator-App/" target="_blank">
+              <button className="calculatorbutt">VIEW PROJECT</button>
+            </a>
+          </div>
+        </div>
+        <div className="newshomepage containerjnr">
+          <div className="description" id="no">
+            <div className="description-child">
+              <h1>News Homepage</h1>
+              <p>
+                This is a landing page for a news website. This site was created
+                with HTML, CSS and JavaScript.
+              </p>
+              <div className="button" id="newsbutton">
+                <h5>HTML</h5>
+                <h5>CSS</h5>
+                <h5>JavaScript</h5>
+              </div>
+            </div>
+            <a href="https://sundaymarvellous.github.io/News-Homepage/" target="_blank">
+              <button className="newsbutt">VIEW PROJECT</button>
+            </a>
+          </div>
+          <div
+            className="imagecontainer news"
+            style={{
+              backgroundImage: `url(${Newsblur})`,
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "cover",
+            }}
+          >
+            <LazyLoadImage img src={Newshomepage} />
+          </div>
+          <div className="description" id="side">
+            <div className="description-child">
+              <h1>News Homepage</h1>
+              <p>
+                This is a landing page for a news website. This site was created
+                with HTML, CSS and JavaScript.
+              </p>
+              <div className="button" id="newsbutton">
+                <h5>HTML</h5>
+                <h5>CSS</h5>
+                <h5>JavaScript</h5>
+              </div>
+            </div>
+            <a href="https://sundaymarvellous.github.io/News-Homepage/" target="_blank">
+              <button className="newsbutt">VIEW PROJECT</button>
+            </a>
+          </div>
+        </div>
+        <div className="containerjnr">
+          <div
+            className="imagecontainer todo"
+            style={{
+              backgroundImage: `url(${Todoblur})`,
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "cover",
+            }}
+          >
+            <LazyLoadImage img src={Todo} />
+          </div>
+          <div className="description">
+            <div className="description-child">
+              <h1>To Do App</h1>
+              <p>
+                This app helps you create a list of everything you need to do
+                written down so you don’t forget anything important. By
+                prioritising the tasks in the list you plan the order in which
+                you’re going to do them and can quickly see what needs your
+                immediate attention.
+              </p>
+              <div className="button" id="todobutton">
+                <h5>HTML</h5>
+                <h5>CSS</h5>
+                <h5>JavaScript</h5>
+              </div>
+            </div>
+            <a href="https://siwes-projects-cuqy.vercel.app/" target="_blank">
+              <button className="todobutt">VIEW PROJECT</button>
+            </a>
+          </div>
+        </div>
+        <div className="demosite containerjnr">
+          <div className="description" id="no">
+            <div className="description-child">
+              <h1>Single Page Blog demo</h1>
+              <p>
+                This site is a demo that shows a template for a fashion
+                blogsite. It was one of my first works as a beginner. This site
+                was created with HTML and CSS
+              </p>
+              <div className="button" id="demobutton">
+                <h5>HTML</h5>
+                <h5>CSS</h5>
+              </div>
+            </div>
+            <a href="https://sundaymarvellous.github.io/Single-Page-Site-Demo/" target="_blank">
+              <button className="demobutt">VIEW PROJECT</button>
+            </a>
+          </div>
+          <div
+            className="imagecontainer demo"
+            style={{
+              backgroundImage: `url(${FSBlur})`,
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "cover",
+            }}
+          >
+            <LazyLoadImage img src={Demo} />
+          </div>
+          <div className="description" id="side">
+            <div className="description-child">
+              <h1>Single Page Blog demo</h1>
+              <p>
+                This site is a demo that shows a template for a fashion
+                blogsite. It was one of my first works as a beginner. This site
+                was created with HTML and CSS
+              </p>
+              <div className="button" id="demobutton">
+                <h5>HTML</h5>
+                <h5>CSS</h5>
+              </div>
+            </div>
+            <a href="https://sundaymarvellous.github.io/Single-Page-Site-Demo/" target="_blank">
+              <button className="demobutt">VIEW PROJECT</button>
+            </a>
+          </div>
+        </div>
+       
+        
         <div className="blogsite containerjnr">
           <div
             className="imagecontainer blog"
@@ -571,7 +571,7 @@ function Porfolio() {
           </div>
         </div>
       </div>
-      <Navbottom />
+      {/* <Navbottom /> */}
     </div>
   );
 }
