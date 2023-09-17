@@ -347,6 +347,7 @@
 .portfolio .container .containerjnr .imagecontainer {
   width: 150%;
   height: 55vh;
+  border: 1rem solid white;
 }
 .portfolio .container .containerjnr .imagecontainer img {
   width: 100%;
@@ -383,178 +384,18 @@
   font-size: 1rem;
   border-radius: 20px;
 }
-.portfolio .container .containerjnr .description .button h5:hover {
-  cursor: pointer;
-}
 .portfolio .container .containerjnr .description button {
   margin-top: 4rem;
   width: -moz-fit-content;
   width: fit-content;
   padding: 0.8rem 2rem;
+  background-color: white;
+  border: none;
   cursor: pointer;
 }
-.portfolio .calc {
-  border: 1rem solid rgb(119, 41, 221);
-}
-.portfolio .demo {
-  border: 1rem solid rgb(254, 92, 254);
-}
-.portfolio .demobutt:hover {
+.portfolio .container .containerjnr .description button:hover {
   color: white;
-  background-color: rgb(254, 92, 254);
-}
-.portfolio #demobutton h5:hover {
-  color: white;
-  background-color: rgb(254, 92, 254);
-}
-.portfolio .calcbutt:hover {
-  color: white;
-  background-color: rgb(119, 41, 221);
-}
-.portfolio #clacbutton h5:hover {
-  color: white;
-  background-color: rgb(119, 41, 221);
-}
-.portfolio .bmicalc {
-  border: 1rem solid blue;
-}
-.portfolio .bmibutt:hover {
-  color: white;
-  background-color: blue;
-}
-.portfolio #bmibutton h5:hover {
-  color: white;
-  background-color: blue;
-}
-.portfolio .planet {
-  border: 1rem solid #419ebb;
-}
-.portfolio .planetbutt:hover {
-  color: white;
-  background-color: #419ebb;
-}
-.portfolio #planetbutton h5:hover {
-  color: white;
-  background-color: #419ebb;
-}
-.portfolio .enter {
-  border: 1rem solid rgb(170, 218, 248);
-}
-.portfolio .enterbutt:hover {
-  background-color: rgb(170, 218, 248);
-}
-.portfolio #enterbutton h5:hover {
-  background-color: rgb(170, 218, 248);
-}
-.portfolio .todo {
-  border: 1rem solid rgb(255, 128, 0);
-}
-.portfolio .todobutt:hover {
-  color: white;
-  background-color: rgb(255, 128, 0);
-}
-.portfolio #todobutton h5:hover {
-  color: white;
-  background-color: rgb(255, 128, 0);
-}
-.portfolio .inter {
-  border: 1rem solid rgb(248, 102, 199);
-}
-.portfolio .interbutt:hover {
-  color: white;
-  background-color: rgb(248, 102, 199);
-}
-.portfolio #interbutton h5:hover {
-  color: white;
-  background-color: rgb(248, 102, 199);
-}
-.portfolio .calculator {
-  border: 1rem solid rgb(52, 52, 55);
-}
-.portfolio .calculatorbutt:hover {
-  color: white;
-  background-color: rgb(52, 52, 55);
-}
-.portfolio #calculatorbutton h5:hover {
-  color: white;
-  background-color: rgb(52, 52, 55);
-}
-.portfolio .news {
-  border: 1rem solid rgb(255, 48, 1);
-}
-.portfolio .newsbutt:hover {
-  color: white;
-  background-color: rgb(255, 48, 1);
-}
-.portfolio #newsbutton h5:hover {
-  color: white;
-  background-color: rgb(255, 48, 1);
-}
-.portfolio .letter {
-  border: 1rem solid rgb(253, 83, 45);
-}
-.portfolio .letterbutt:hover {
-  color: white;
-  background-color: rgb(253, 83, 45);
-}
-.portfolio #letterbutton h5:hover {
-  color: white;
-  background-color: rgb(253, 83, 45);
-}
-.portfolio .blog {
-  border: 1rem solid rgb(57, 1, 1);
-}
-.portfolio .blogbutt:hover {
-  color: white;
-  background-color: rgb(57, 1, 1);
-}
-.portfolio #blogbutton h5:hover {
-  color: white;
-  background-color: rgb(57, 1, 1);
-}
-.portfolio .real {
-  border: 1rem solid rgb(191, 102, 0);
-}
-.portfolio .realbutt:hover {
-  color: white;
-  background-color: rgb(191, 102, 0);
-}
-.portfolio #realbutton h5:hover {
-  color: white;
-  background-color: rgb(191, 102, 0);
-}
-.portfolio .estate {
-  border: 1rem solid rgb(191, 102, 0);
-}
-.portfolio .estatebutt:hover {
-  color: white;
-  background-color: rgb(191, 102, 0);
-}
-.portfolio #estatebutton h5:hover {
-  color: white;
-  background-color: rgb(191, 102, 0);
-}
-.portfolio .estt {
-  border: 1rem solid rgba(19, 53, 127, 0.878);
-}
-.portfolio .esttbutt:hover {
-  color: white;
-  background-color: rgba(19, 53, 127, 0.878);
-}
-.portfolio #esttbutton h5:hover {
-  color: white;
-  background-color: rgba(19, 53, 127, 0.878);
-}
-.portfolio .estt2 {
-  border: 1rem solid rgba(0, 5, 17, 0.878);
-}
-.portfolio .estt2butt:hover {
-  color: white;
-  background-color: rgba(0, 5, 17, 0.878);
-}
-.portfolio #estt2button h5:hover {
-  color: white;
-  background-color: rgba(0, 5, 17, 0.878);
+  background-color: rgb(22, 20, 37);
 }
 
 @media screen and (max-width: 600px) {
