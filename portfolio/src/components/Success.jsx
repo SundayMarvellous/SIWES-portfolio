@@ -1,4 +1,3 @@
-
 import React from 'react';
 // import { name } from "./Form"
 import { useState, useEffect } from "react";
@@ -24,14 +23,16 @@ function Success() {
     stopConfetti();
   }, []);
   return (
-    <div className='successmessage'>
-      <img src={Icon} />
-      <h1>Thank you </h1>
-      <p>I appreciate you reaching out, Your message has been sent to me. I would get back to you.</p>
-      <button onClick={handleToForm}>CONTINUE</button>
-      <Confetti gravity={0.2} numberOfPieces={pieces} />
-
+    <div className='main'>
+      <div className='successmessage'>
+          <img src={Icon} />
+          <h1>Thank you </h1>
+          <p>I appreciate you reaching out, Your message has been sent to me. I would get back to you.</p>
+          <button onClick={handleToForm}>CONTINUE</button>
+          <Confetti gravity={0.2} numberOfPieces={pieces} />
+        </div>
     </div>
+ 
   )
 }
 
