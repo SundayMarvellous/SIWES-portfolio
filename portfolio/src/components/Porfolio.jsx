@@ -348,6 +348,80 @@ function Porfolio() {
             </a>
           </div>
         </div>
+        <div className="realestate containerjnr">
+          <div
+            className="imagecontainer real"
+            style={{
+              backgroundImage: `url(${Realblur})`,
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "cover",
+            }}
+          >
+            <LazyLoadImage img src={RealEstate} />
+          </div>
+          <div className="description">
+            <div className="description-child">
+              <h1>Real-Estate Site</h1>
+              <p>
+              This is a digital space where realtors, home sellers, and homebuyers can get in touch to make a purchase or rent contract for a real estate item.
+              </p>
+              <div className="button" id="realbutton">
+                <h5>HTML</h5>
+                <h5>CSS</h5>
+                <h5>Bootstrap</h5>
+              </div>
+            </div>
+            <a href="https://sundaymarvellous.github.io/RealEstate/" target="_blank">
+              <button className="realbutt">VIEW PROJECT</button>
+            </a>
+          </div>
+        </div>
+        <div className="blogsite containerjnr">
+        <div className="description" id="no">
+            <div className="description-child">
+              <h1>Blog Site</h1>
+              <p>
+              This site is a demo that shows a template for a fashion
+                blogsite. It was one of my second fashion blog I developed as a beginner. This site
+                was created with HTML and CSS
+              </p>
+              <div className="button" id="blogbutton">
+                <h5>HTML</h5>
+                <h5>CSS</h5>
+              </div>
+            </div>
+            <a href="https://sundaymarvellous.github.io/Fashion-Blog/" target="_blank">
+              <button className="blogbutt">VIEW PROJECT</button>
+            </a>
+          </div>
+          <div
+            className="imagecontainer blog"
+            style={{
+              backgroundImage: `url(${Blogblur})`,
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "cover",
+            }}
+          >
+            <LazyLoadImage img src={Blog} />
+          </div>
+          <div className="description" id="side">
+            <div className="description-child">
+              <h1>Blog Site</h1>
+              <p>
+              This site is a demo that shows a template for a fashion
+                blogsite. It was one of my second fashion blog I developed as a beginner. This site
+                was created with HTML and CSS
+              </p>
+              <div className="button" id="blogbutton">
+                <h5>HTML</h5>
+                <h5>CSS</h5>
+              </div>
+            </div>
+            <a href="https://sundaymarvellous.github.io/Fashion-Blog/" target="_blank">
+              <button className="blogbutt">VIEW PROJECT</button>
+            </a>
+          </div>
+        </div>
         <div className="containerjnr">
           <div
             className="imagecontainer todo"
@@ -423,81 +497,6 @@ function Porfolio() {
             </div>
             <a href="https://sundaymarvellous.github.io/Single-Page-Site-Demo/" target="_blank">
               <button className="demobutt">VIEW PROJECT</button>
-            </a>
-          </div>
-        </div>
-       
-        
-        <div className="blogsite containerjnr">
-          <div
-            className="imagecontainer blog"
-            style={{
-              backgroundImage: `url(${Blogblur})`,
-              backgroundRepeat: "no-repeat",
-              backgroundSize: "cover",
-            }}
-          >
-            <LazyLoadImage img src={Blog} />
-          </div>
-          <div className="description">
-            <div className="description-child">
-              <h1>Blog Site</h1>
-              <p>
-              This site is a demo that shows a template for a fashion
-                blogsite. It was one of my second fashion blog I developed as a beginner. This site
-                was created with HTML and CSS
-              </p>
-              <div className="button" id="blogbutton">
-                <h5>HTML</h5>
-                <h5>CSS</h5>
-              </div>
-            </div>
-            <a href="https://sundaymarvellous.github.io/Fashion-Blog/" target="_blank">
-              <button className="blogbutt">VIEW PROJECT</button>
-            </a>
-          </div>
-        </div>
-        <div className="realestate containerjnr">
-          <div className="description" id="no">
-            <div className="description-child">
-              <h1>Real-Estate Site</h1>
-              <p>
-              This is a digital space where realtors, home sellers, and homebuyers can get in touch to make a purchase or rent contract for a real estate item.
-              </p>
-              <div className="button" id="realbutton">
-                <h5>HTML</h5>
-                <h5>CSS</h5>
-                <h5>Bootstrap</h5>
-              </div>
-            </div>
-            <a href="https://sundaymarvellous.github.io/RealEstate/" target="_blank">
-              <button className="realbutt">VIEW PROJECT</button>
-            </a>
-          </div>
-          <div
-            className="imagecontainer real"
-            style={{
-              backgroundImage: `url(${Realblur})`,
-              backgroundRepeat: "no-repeat",
-              backgroundSize: "cover",
-            }}
-          >
-            <LazyLoadImage img src={RealEstate} />
-          </div>
-          <div className="description" id="side">
-            <div className="description-child">
-              <h1>Real-Estate Site</h1>
-              <p>
-              This is a digital space where realtors, home sellers, and homebuyers can get in touch to make a purchase or rent contract for a real estate item.
-              </p>
-              <div className="button" id="realbutton">
-                <h5>HTML</h5>
-                <h5>CSS</h5>
-                <h5>Bootstrap</h5>
-              </div>
-            </div>
-            <a href="https://sundaymarvellous.github.io/RealEstate/" target="_blank">
-              <button className="realbutt">VIEW PROJECT</button>
             </a>
           </div>
         </div>
