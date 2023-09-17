@@ -1,8 +1,16 @@
 .Nav nav {
+  position: fixed;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  background-color: rgba(59, 0, 59, 0.799);
+  width: 90vw;
+  margin-left: -5vw;
+  padding-right: 5vw;
+  padding-left: 5vw;
   align-items: center;
+  margin-bottom: 10vh;
+  padding-top: 5vh;
 }
 .Nav nav h1 {
   font-size: 3rem;
@@ -23,15 +31,14 @@
 }
 .Nav nav .navbar li:hover {
   color: rgb(255, 83, 232);
-  font-size: 1.5rem;
 }
 .Nav nav .sidebar {
   display: none;
   width: 50vw;
   position: fixed;
-  top: 20vh;
+  top: 15vh;
   right: -600px;
-  transition: left 0.3s;
+  transition: right 0.3s;
   padding: 3rem;
 }
 .Nav nav .sidebar li {
@@ -39,7 +46,6 @@
 }
 .Nav nav .sidebar li:hover {
   color: rgb(255, 83, 232);
-  font-size: 1.2rem;
 }
 .Nav nav .hamburger {
   display: none;
@@ -95,27 +101,10 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.home .intro {
-  margin-top: 2rem;
-  display: flex;
-  align-items: center;
-  gap: 2rem;
-  justify-content: space-between;
-}
 .home .intro-text {
   font-size: 3rem;
-  overflow: hidden;
-  margin: 0 auto;
+  width: 100%;
   letter-spacing: 0.05em;
-  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
-}
-@keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
 }
 .home .intro-explain {
   font-weight: 400;
@@ -123,6 +112,8 @@
   margin-top: 1rem;
 }
 .home .intro img {
+  margin-top: 20vh;
+  width: 78vw;
   box-shadow: 0 0 12px 2px rgb(255, 83, 232);
 }
 .home .intro img:hover {
@@ -148,6 +139,7 @@
   color: rgb(255, 83, 232);
   background-color: white;
   border: none;
+  border-radius: 10px;
   padding: 1rem 2rem;
   letter-spacing: 1.5px;
 }
@@ -155,7 +147,7 @@
   color: white;
   background-color: rgb(255, 83, 232);
   cursor: pointer;
-  box-shadow: 0 0 12px 2px rgb(255, 83, 232);
+  box-shadow: 0 0 2px 2px rgb(255, 83, 232);
 }
 
 @media screen and (max-width: 600px) {
@@ -171,9 +163,6 @@
   }
   .home .intro-explain {
     font-size: 1rem;
-  }
-  .home .intro img {
-    width: 70vw;
   }
   .home .getintouch {
     font-size: 2rem;
@@ -194,21 +183,15 @@
     gap: 2rem;
   }
   .home .intro-text {
-    font-size: 1.2rem;
-  }
-  .home .intro-explain {
-    font-size: 1rem;
-  }
-  .home .intro img {
-    width: 70vw;
+    font-size: 1.3rem;
   }
   .home .getintouch {
     font-size: 2rem;
     margin-bottom: 5rem;
   }
   .home .getintouch button {
-    padding: 0.5rem 1rem;
-    font-size: 0.8rem;
+    padding: 1rem 1.5rem;
+    font-size: 1.2rem;
   }
 }
 .Navbottom {
@@ -221,7 +204,7 @@
   padding-right: 15vw;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
-  width: 100vw;
+  width: 110vw;
 }
 .Navbottom .navbottom {
   display: flex;
@@ -241,7 +224,6 @@
 }
 .Navbottom .navbottom ul li:hover {
   color: rgb(255, 83, 232);
-  font-size: 1rem;
 }
 .Navbottom .navbottom .images img {
   width: 3rem;
@@ -273,7 +255,6 @@
   }
   .Navbottom .navbottom ul li:hover {
     color: rgb(255, 83, 232);
-    font-size: 1rem;
   }
   .Navbottom .navbottom .images img {
     width: 3rem;
@@ -831,9 +812,8 @@ form .form-details button:hover {
 
 body {
   font-size: 62.5%;
-  margin-right: 15vw;
-  margin-left: 15vw;
-  margin-top: 10vh;
+  margin-right: 10vw;
+  margin-left: 10vw;
   background: rgb(59, 0, 59);
   color: white;
   overflow-x: hidden;

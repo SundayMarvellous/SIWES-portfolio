@@ -1,9 +1,19 @@
 .Nav{
     nav{
+        position: fixed;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        background-color: rgba(59, 0, 59, 0.799);
+        width: 90vw;
+        margin-left: -5vw;
+        padding-right: 5vw;
+        padding-left: 5vw;
         align-items: center;
+        margin-bottom: 10vh;
+        padding-top: 5vh;
+      
+
       
         h1{
             font-size: 3rem;
@@ -22,7 +32,6 @@
                 cursor: pointer;
                 &:hover{
                     color: rgb(255, 83, 232);
-                    font-size: 1.5rem;
                 }
             }
         }
@@ -31,15 +40,14 @@
             width: 50vw;
             // height: 40vh;
             position: fixed;
-            top: 20vh;
+            top: 15vh;
             right: -600px;
-            transition: left 0.3s ;
+            transition: right 0.3s ;
             padding: 3rem;
             li{
                 cursor: pointer;
                 &:hover{
                     color: rgb(255, 83, 232);
-                    font-size: 1.2rem;
                 }
             }
         }
