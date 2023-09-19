@@ -3,8 +3,8 @@ import Nav from './Nav'
 import Navbottom from './Navbottom';
 // import Aboutpic from '../images/aboutpic3.jpg';
 // import Aboutblur from "../images/porfolio/aboutblur.jpg";
-import FSBlur from "../images/porfolio/blur4fs.jpg";
-import Homepic from '../images/homepagepic2.jpg';
+import FSBlur from "../images/porfolio/aboutblur.jpg";
+import Homepic from '../images/MicrosoftTeams-image.png';
 // import Typewriter1 from './Typewriter';
 import Typewriter from "typewriter-effect";
 import { LazyLoadImage } from 'react-lazy-load-image-component';
@@ -15,11 +15,11 @@ function About() {
     <div className='about'>
       <Nav />
       <div className="main">
-        <div className="main-image" style={{backgroundImage: `url(${FSBlur})`, backgroundRepeat: "no-repeat",  backgroundPosition: "center"}}>
+        <div className="main-image" style={{backgroundImage: `url(${FSBlur})`, backgroundRepeat: "no-repeat",  backgroundPosition: "center", backgroundSize: "cover"}}>
          <LazyLoadImage img src={Homepic} className='aboutpic' alt='mypicture'/>
         </div>
         <div className='main-text'> 
-        <h1 className='main-head'>ABOUT</h1>
+        {/* <h1 className='main-head'>ABOUT</h1> */}
         <h2 className='main-description'>
           <Typewriter
           onInit={(typewriter) => {
@@ -55,7 +55,7 @@ function About() {
         
       </div>
       
-      <Navbottom />
+      {/* <Navbottom /> */}
     </div>
   )
 }

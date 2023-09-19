@@ -1,6 +1,6 @@
 .portfolio{
     .container{
-        margin-top: 2rem;
+        padding-top: 25vh;
         .containerjnr{
             display: flex;
             align-items: center;
@@ -9,6 +9,7 @@
             .imagecontainer{
                 width: 150%;
                 height: 55vh;
+                border: 1rem solid white;
                 // background: url('../images/porfolio/blur.jpg');
                 img{
                     width: 100%;
@@ -45,253 +46,25 @@
                         color: rgb(59, 0, 59);
                         font-size: 1rem;
                         border-radius: 20px;
-                        &:hover{
-                            cursor: pointer;
-                        }
                     }
                 }
                 button{
                     margin-top: 4rem;
                     width: fit-content;
                     padding:  0.8rem 2rem;
+                    background-color: white;
+                    border: none;
                     // font-size: 1rem;
                     cursor: pointer;
-                    // &:hover{
-                    //     color: white;
-                    //     background-color: rgb(255, 83, 232);
-                    // }
+                    &:hover{
+                        color: white;
+                        background-color: rgb(22, 20, 37);
+                    }
                 }
             }
         }
     }
-    .calc{
-        border: 1rem solid rgb(119, 41, 221);          
-    }
-    .demo{
-        border: 1rem solid rgb(254, 92, 254);
-    }
-    .demobutt{
-        &:hover{
-            color: white;
-            background-color: rgb(254, 92, 254);
-        }
-    }
-    #demobutton{
-        h5:hover{
-            color: white;
-            background-color: rgb(254, 92, 254);
-        }
-    }
-    .calcbutt{
-        &:hover{
-            color: white;
-            background-color: rgb(119, 41, 221);
-        }
-    }
-    #clacbutton{
-        h5:hover{
-            color: white;
-            background-color: rgb(119, 41, 221);
-        }
-    }
-    .bmicalc{
-        border: 1rem solid blue;
-    }
-    .bmibutt{
-        &:hover{
-            color: white;
-            background-color: blue;
-        }
-    }
-    #bmibutton{
-        h5:hover{
-            color: white;
-            background-color: blue;
-        }
-    }
-    .planet{
-        border: 1rem solid #419ebb;
-    }
-    .planetbutt{
-        &:hover{
-            color: white;
-            background-color: #419ebb;
-        }
-    }
-    #planetbutton{
-        h5:hover{
-            color: white;
-            background-color: #419ebb;
-        }
-    }
-    .enter{
-        border: 1rem solid rgb(170, 218, 248);
-    }
-    .enterbutt{
-        &:hover{
-            background-color: rgb(170, 218, 248);
-        }
-    }
-    #enterbutton{
-        h5:hover{
-            background-color: rgb(170, 218, 248);
-        }
-    }
-    .todo{
-        border: 1rem solid rgb(255, 128, 0);
-    }
-    .todobutt{
-        &:hover{
-            color: white;
-            background-color: rgb(255, 128, 0);
-        }
-    }
-    #todobutton{
-        h5:hover{
-            color: white;
-            background-color: rgb(255, 128, 0);
-        }
-    }
-    .inter{
-        border: 1rem solid rgb(248, 102, 199);
-    }
-    .interbutt{
-        &:hover{
-            color: white;
-            background-color: rgb(248, 102, 199);
-        }
-    }
-    #interbutton{
-        h5:hover{
-            color: white;
-            background-color: rgb(248, 102, 199);
-        }
-    }
-    .calculator{
-        border: 1rem solid rgb(52, 52, 55);
-    }
-    .calculatorbutt{
-        &:hover{
-            color: white;
-            background-color: rgb(52, 52, 55);
-        }
-    }
-    #calculatorbutton{
-        h5:hover{
-            color: white;
-            background-color: rgb(52, 52, 55);
-        }
-    }
-    .news{
-        border: 1rem solid rgb(255, 48, 1);
-    }
-    .newsbutt{
-        &:hover{
-            color: white;
-            background-color: rgb(255, 48, 1);
-        }
-    }
-    #newsbutton{
-        h5:hover{
-            color: white;
-            background-color: rgb(255, 48, 1);
-        }
-    }
-    .letter{
-        border: 1rem solid rgb(253, 83, 45);
-    }
-    .letterbutt{
-        &:hover{
-            color: white;
-            background-color: rgb(253, 83, 45);
-        }
-    }
-    #letterbutton{
-        h5:hover{
-            color: white;
-            background-color: rgb(253, 83, 45);
-        }
-    }
-    .blog{
-        border: 1rem solid rgb(57, 1, 1);
-    }
-    .blogbutt{
-        &:hover{
-            color: white;
-            background-color: rgb(57, 1, 1);
-        }
-    }
-    #blogbutton{
-        h5:hover{
-            color: white;
-            background-color: rgb(57, 1, 1);
-        }
-        
-    }
-    .real{
-        border: 1rem solid rgb(191, 102, 0);
-    }
-    .realbutt{
-        &:hover{
-            color: white;
-            background-color: rgb(191, 102, 0);
-        }
-    }
-    #realbutton{
-        h5:hover{
-            color: white;
-            background-color: rgb(191, 102, 0);
-        }
-        
-    }
-    .estate{
-        border: 1rem solid rgb(191, 102, 0);
-    }
-    .estatebutt{
-        &:hover{
-            color: white;
-            background-color: rgb(191, 102, 0);
-        }
-    }
-    #estatebutton{
-        h5:hover{
-            color: white;
-            background-color: rgb(191, 102, 0);
-        }
-        
-    }
-    .estt{
-        border: 1rem solid rgba(19, 53, 127, 0.878);
-    }
-    .esttbutt{
-        &:hover{
-            color: white;
-            background-color: rgba(19, 53, 127, 0.878);
-        }
-    }
-    #esttbutton{
-        h5:hover{
-            color: white;
-            background-color: rgba(19, 53, 127, 0.878);
-        }
-        
-    }
-    .estt2{
-        border: 1rem solid rgba(0, 5, 17, 0.878);
-    }
-    .estt2butt{
-        &:hover{
-            color: white;
-            background-color: rgba(0, 5, 17, 0.878);
-        }
-    }
-    #estt2button{
-        h5:hover{
-            color: white;
-            background-color: rgba(0, 5, 17, 0.878);
-        }
-        
-    }
+    
 }
 @media screen and (max-width: 600px) {
     .portfolio{
@@ -344,6 +117,53 @@
                     display: none;
                 }
                 #side{display: block;}
+            }
+        }
+    }
+}
+
+@media (min-width: 600px) and (max-width: 800px) {
+    .portfolio{
+        .container{
+            .containerjnr{
+                .imagecontainer{
+                    width: 100%;
+                    height: 60vh;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 801px) and (max-width: 1000px) {
+    .portfolio{
+        .container{
+            .containerjnr{
+                display: flex;
+                flex-direction: row;
+                gap: 3rem;
+                width: 100%;
+                .imagecontainer{
+                    width: 220%;
+                    height: 60vh;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .portfolio{
+        .container{
+            .containerjnr{
+                display: flex;
+                flex-direction: row;
+                gap: 3rem;
+                width: 100%;
+                .imagecontainer{
+                    width: 200%;
+                    height: 75vh;
+                }
             }
         }
     }
