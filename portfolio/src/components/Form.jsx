@@ -46,7 +46,12 @@ export default function Form () {
       <h3>Let's get in touch!</h3>
       <p>
         Please let me know what you're working on and how I might be of
-        assistance. I am interested in working remotely. Please feel free to look at the websites I've listed below and to get in
+        assistance. I'm searching for a new position right now and I am open to
+        a variety of alternatives. I am interested in working remotely. However,
+        I'm equally delighted to learn about chances that don't fall within that
+        category. I'm a dedicated and upbeat individual who will tackle every
+        activity with a feeling of purpose and close attention to the details.
+        Please feel free to look at the websites I've listed below and to get in
         touch with me using the form.
       </p>
       <div className="form-details">
@@ -58,7 +63,7 @@ export default function Form () {
               name="user_name"
               value={inputs.user_name || ""}
               onChange={handleChange}
-              placeholder="Enter your fullname"
+              placeholder="David Stephenson"
             />
           </label>
         </div>
@@ -71,7 +76,7 @@ export default function Form () {
               name="user_email"
               value={inputs.user_email || ""}
               onChange={handleChange}
-              placeholder="Enter your email"
+              placeholder="davidstephenson@gmail.com"
             />
           </label>
         </div>
@@ -84,7 +89,7 @@ export default function Form () {
               name="message"
               value={inputs.message || ""}
               onChange={handleChange}
-              placeholder="Type your Message here..."
+              placeholder="Type your Message here"
             />
           </label>
         </div>

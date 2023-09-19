@@ -1,8 +1,8 @@
 import React from "react";
 import Nav from "./Nav";
 import Navbottom from "./Navbottom";
-import Bg from "../images/contact2.jpg";
-import blur from "../images/porfolio/rlblur.jpg";
+import Bg from "../images/home.jpg";
+import blur from "../images/porfolio/interactiveblur.jpg";
 import Form  from "./Form";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
@@ -23,7 +23,7 @@ function Contact() {
         </div>
           <Form />
       </div>
-      {/* <Navbottom /> */}
+      <Navbottom />
     </div>
   );
 }

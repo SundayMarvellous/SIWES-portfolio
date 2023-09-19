@@ -1,16 +1,8 @@
 .Nav nav {
-  position: fixed;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: rgba(59, 0, 59, 0.799);
-  width: 90vw;
-  margin-left: -5vw;
-  padding-right: 5vw;
-  padding-left: 5vw;
   align-items: center;
-  margin-bottom: 10vh;
-  padding-top: 5vh;
 }
 .Nav nav h1 {
   font-size: 3rem;
@@ -31,14 +23,15 @@
 }
 .Nav nav .navbar li:hover {
   color: rgb(255, 83, 232);
+  font-size: 1.5rem;
 }
 .Nav nav .sidebar {
   display: none;
   width: 50vw;
   position: fixed;
-  top: 15vh;
+  top: 20vh;
   right: -600px;
-  transition: right 0.3s;
+  transition: left 0.3s;
   padding: 3rem;
 }
 .Nav nav .sidebar li {
@@ -46,6 +39,7 @@
 }
 .Nav nav .sidebar li:hover {
   color: rgb(255, 83, 232);
+  font-size: 1.2rem;
 }
 .Nav nav .hamburger {
   display: none;
@@ -101,13 +95,27 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.home .intro .main-image {
-  margin-top: 20vh;
+.home .intro {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  justify-content: space-between;
 }
 .home .intro-text {
   font-size: 3rem;
-  width: 100%;
+  overflow: hidden;
+  margin: 0 auto;
   letter-spacing: 0.05em;
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
 }
 .home .intro-explain {
   font-weight: 400;
@@ -115,7 +123,6 @@
   margin-top: 1rem;
 }
 .home .intro img {
-  width: 78vw;
   box-shadow: 0 0 12px 2px rgb(255, 83, 232);
 }
 .home .intro img:hover {
@@ -141,7 +148,6 @@
   color: rgb(255, 83, 232);
   background-color: white;
   border: none;
-  border-radius: 10px;
   padding: 1rem 2rem;
   letter-spacing: 1.5px;
 }
@@ -149,7 +155,7 @@
   color: white;
   background-color: rgb(255, 83, 232);
   cursor: pointer;
-  box-shadow: 0 0 2px 2px rgb(255, 83, 232);
+  box-shadow: 0 0 12px 2px rgb(255, 83, 232);
 }
 
 @media screen and (max-width: 600px) {
@@ -166,17 +172,20 @@
   .home .intro-explain {
     font-size: 1rem;
   }
+  .home .intro img {
+    width: 70vw;
+  }
   .home .getintouch {
     font-size: 2rem;
     margin-bottom: 5rem;
   }
   .home .getintouch button {
-    padding: 0.4rem 0.8rem;
-    font-size: 0.8rem;
-    font-weight: 700;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: 800;
   }
 }
-@media (min-width: 601px) and (max-width: 1300px) {
+@media screen and (max-width: 1300px) {
   .home .intro {
     margin-top: 2rem;
     display: flex;
@@ -185,15 +194,21 @@
     gap: 2rem;
   }
   .home .intro-text {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
+  }
+  .home .intro-explain {
+    font-size: 1rem;
+  }
+  .home .intro img {
+    width: 70vw;
   }
   .home .getintouch {
     font-size: 2rem;
     margin-bottom: 5rem;
   }
   .home .getintouch button {
-    padding: 1rem 1.5rem;
-    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
   }
 }
 .Navbottom {
@@ -206,7 +221,7 @@
   padding-right: 15vw;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
-  width: 110vw;
+  width: 100vw;
 }
 .Navbottom .navbottom {
   display: flex;
@@ -226,6 +241,7 @@
 }
 .Navbottom .navbottom ul li:hover {
   color: rgb(255, 83, 232);
+  font-size: 1rem;
 }
 .Navbottom .navbottom .images img {
   width: 3rem;
@@ -257,6 +273,7 @@
   }
   .Navbottom .navbottom ul li:hover {
     color: rgb(255, 83, 232);
+    font-size: 1rem;
   }
   .Navbottom .navbottom .images img {
     width: 3rem;
@@ -264,15 +281,14 @@
   }
 }
 .about .main {
-  padding-top: 20vh;
   display: flex;
   align-items: center;
   gap: 2rem;
-  margin-bottom: 10vh;
+  margin-top: 4rem;
 }
 .about .main-image {
-  width: 100%;
-  height: 80vh;
+  width: 50%;
+  height: 100%;
   background-repeat: no-repeat;
 }
 .about .main-image .aboutpic {
@@ -285,7 +301,6 @@
 }
 .about .main-text {
   width: 50%;
-  height: 100%;
 }
 .about .main-head {
   font-family: "Oswald", sans-serif;
@@ -294,11 +309,12 @@
 }
 .about .main-description {
   font-size: 3rem;
+  margin-top: 1rem;
   margin-bottom: 1rem;
 }
 .about .main-explanation {
   font-size: 1.5rem;
-  text-align: left;
+  text-align: justify;
   color: rgb(255, 159, 242);
 }
 .about .main-explanation span {
@@ -309,14 +325,16 @@
   width: 50%;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 600px) {
   .about .main {
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 2rem;
+    margin-top: 4rem;
   }
   .about .main-image {
-    width: 80vw;
+    width: 70vw;
     height: 60%;
     background-repeat: no-repeat;
   }
@@ -328,7 +346,15 @@
 @media screen and (max-width: 1300px) {
   .about .main {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     gap: 2rem;
+    margin-top: 4rem;
+  }
+  .about .main-image {
+    width: 50vw;
+    height: 50%;
+    background-repeat: no-repeat;
   }
   .about .main-text {
     text-align: justify;
@@ -336,7 +362,7 @@
   }
 }
 .portfolio .container {
-  padding-top: 25vh;
+  margin-top: 2rem;
 }
 .portfolio .container .containerjnr {
   display: flex;
@@ -347,7 +373,6 @@
 .portfolio .container .containerjnr .imagecontainer {
   width: 150%;
   height: 55vh;
-  border: 1rem solid white;
 }
 .portfolio .container .containerjnr .imagecontainer img {
   width: 100%;
@@ -384,18 +409,178 @@
   font-size: 1rem;
   border-radius: 20px;
 }
+.portfolio .container .containerjnr .description .button h5:hover {
+  cursor: pointer;
+}
 .portfolio .container .containerjnr .description button {
   margin-top: 4rem;
   width: -moz-fit-content;
   width: fit-content;
   padding: 0.8rem 2rem;
-  background-color: white;
-  border: none;
   cursor: pointer;
 }
-.portfolio .container .containerjnr .description button:hover {
+.portfolio .calc {
+  border: 1rem solid rgb(119, 41, 221);
+}
+.portfolio .demo {
+  border: 1rem solid rgb(254, 92, 254);
+}
+.portfolio .demobutt:hover {
   color: white;
-  background-color: rgb(22, 20, 37);
+  background-color: rgb(254, 92, 254);
+}
+.portfolio #demobutton h5:hover {
+  color: white;
+  background-color: rgb(254, 92, 254);
+}
+.portfolio .calcbutt:hover {
+  color: white;
+  background-color: rgb(119, 41, 221);
+}
+.portfolio #clacbutton h5:hover {
+  color: white;
+  background-color: rgb(119, 41, 221);
+}
+.portfolio .bmicalc {
+  border: 1rem solid blue;
+}
+.portfolio .bmibutt:hover {
+  color: white;
+  background-color: blue;
+}
+.portfolio #bmibutton h5:hover {
+  color: white;
+  background-color: blue;
+}
+.portfolio .planet {
+  border: 1rem solid #419ebb;
+}
+.portfolio .planetbutt:hover {
+  color: white;
+  background-color: #419ebb;
+}
+.portfolio #planetbutton h5:hover {
+  color: white;
+  background-color: #419ebb;
+}
+.portfolio .enter {
+  border: 1rem solid rgb(170, 218, 248);
+}
+.portfolio .enterbutt:hover {
+  background-color: rgb(170, 218, 248);
+}
+.portfolio #enterbutton h5:hover {
+  background-color: rgb(170, 218, 248);
+}
+.portfolio .todo {
+  border: 1rem solid rgb(255, 128, 0);
+}
+.portfolio .todobutt:hover {
+  color: white;
+  background-color: rgb(255, 128, 0);
+}
+.portfolio #todobutton h5:hover {
+  color: white;
+  background-color: rgb(255, 128, 0);
+}
+.portfolio .inter {
+  border: 1rem solid rgb(248, 102, 199);
+}
+.portfolio .interbutt:hover {
+  color: white;
+  background-color: rgb(248, 102, 199);
+}
+.portfolio #interbutton h5:hover {
+  color: white;
+  background-color: rgb(248, 102, 199);
+}
+.portfolio .calculator {
+  border: 1rem solid rgb(52, 52, 55);
+}
+.portfolio .calculatorbutt:hover {
+  color: white;
+  background-color: rgb(52, 52, 55);
+}
+.portfolio #calculatorbutton h5:hover {
+  color: white;
+  background-color: rgb(52, 52, 55);
+}
+.portfolio .news {
+  border: 1rem solid rgb(255, 48, 1);
+}
+.portfolio .newsbutt:hover {
+  color: white;
+  background-color: rgb(255, 48, 1);
+}
+.portfolio #newsbutton h5:hover {
+  color: white;
+  background-color: rgb(255, 48, 1);
+}
+.portfolio .letter {
+  border: 1rem solid rgb(253, 83, 45);
+}
+.portfolio .letterbutt:hover {
+  color: white;
+  background-color: rgb(253, 83, 45);
+}
+.portfolio #letterbutton h5:hover {
+  color: white;
+  background-color: rgb(253, 83, 45);
+}
+.portfolio .blog {
+  border: 1rem solid rgb(57, 1, 1);
+}
+.portfolio .blogbutt:hover {
+  color: white;
+  background-color: rgb(57, 1, 1);
+}
+.portfolio #blogbutton h5:hover {
+  color: white;
+  background-color: rgb(57, 1, 1);
+}
+.portfolio .real {
+  border: 1rem solid rgb(191, 102, 0);
+}
+.portfolio .realbutt:hover {
+  color: white;
+  background-color: rgb(191, 102, 0);
+}
+.portfolio #realbutton h5:hover {
+  color: white;
+  background-color: rgb(191, 102, 0);
+}
+.portfolio .estate {
+  border: 1rem solid rgb(191, 102, 0);
+}
+.portfolio .estatebutt:hover {
+  color: white;
+  background-color: rgb(191, 102, 0);
+}
+.portfolio #estatebutton h5:hover {
+  color: white;
+  background-color: rgb(191, 102, 0);
+}
+.portfolio .estt {
+  border: 1rem solid rgba(19, 53, 127, 0.878);
+}
+.portfolio .esttbutt:hover {
+  color: white;
+  background-color: rgba(19, 53, 127, 0.878);
+}
+.portfolio #esttbutton h5:hover {
+  color: white;
+  background-color: rgba(19, 53, 127, 0.878);
+}
+.portfolio .estt2 {
+  border: 1rem solid rgba(0, 5, 17, 0.878);
+}
+.portfolio .estt2butt:hover {
+  color: white;
+  background-color: rgba(0, 5, 17, 0.878);
+}
+.portfolio #estt2button h5:hover {
+  color: white;
+  background-color: rgba(0, 5, 17, 0.878);
 }
 
 @media screen and (max-width: 600px) {
@@ -445,41 +630,8 @@
     display: block;
   }
 }
-@media (min-width: 600px) and (max-width: 800px) {
-  .portfolio .container .containerjnr .imagecontainer {
-    width: 100%;
-    height: 60vh;
-  }
-}
-@media (min-width: 801px) and (max-width: 1000px) {
-  .portfolio .container .containerjnr {
-    display: flex;
-    flex-direction: row;
-    gap: 3rem;
-    width: 100%;
-  }
-  .portfolio .container .containerjnr .imagecontainer {
-    width: 220%;
-    height: 60vh;
-  }
-}
-@media screen and (min-width: 1000px) {
-  .portfolio .container .containerjnr {
-    display: flex;
-    flex-direction: row;
-    gap: 3rem;
-    width: 100%;
-  }
-  .portfolio .container .containerjnr .imagecontainer {
-    width: 200%;
-    height: 75vh;
-  }
-}
-.contact {
-  margin-bottom: 10vh;
-}
 .contact .main {
-  padding-top: 25vh;
+  margin-top: 2rem;
   display: flex;
   text-align: center;
 }
@@ -488,12 +640,13 @@
   height: fit-content;
 }
 .contact .main-image .image {
-  width: 40vw;
-  height: 100%;
+  width: 33vw;
+  height: 90vh;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 800px) {
   .contact .main {
+    margin-top: 2rem;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -506,13 +659,14 @@
     margin: auto;
   }
   .contact .main-image .image {
-    width: 80vw;
-    height: 100%;
+    width: 50vw;
+    height: 50vh;
   }
 }
 form {
   margin-top: 4rem;
   background-color: white;
+  width: 50vw;
   height: -moz-fit-content 80vh;
   height: fit-content 80vh;
   padding: 3rem;
@@ -531,7 +685,6 @@ form p {
   margin: 1rem;
   font-size: 1rem;
   color: rgb(59, 0, 59);
-  line-height: 25px;
 }
 form .form-details {
   border: 2px solid rgb(59, 0, 59);
@@ -564,11 +717,11 @@ form .form-details input {
   font-family: "Times New Roman", Times, serif;
 }
 form .form-details input::-moz-placeholder {
-  color: rgba(59, 0, 59, 0.737);
+  color: rgb(59, 0, 59);
   font-size: 1rem;
 }
 form .form-details input::placeholder {
-  color: rgba(59, 0, 59, 0.737);
+  color: rgb(59, 0, 59);
   font-size: 1rem;
 }
 form .form-details input:focus {
@@ -586,11 +739,11 @@ form .form-details textarea {
   font-family: "Times New Roman", Times, serif;
 }
 form .form-details textarea::-moz-placeholder {
-  color: rgba(59, 0, 59, 0.724);
+  color: rgb(59, 0, 59);
   font-size: 1rem;
 }
 form .form-details textarea::placeholder {
-  color: rgba(59, 0, 59, 0.724);
+  color: rgb(59, 0, 59);
   font-size: 1rem;
 }
 form .form-details textarea:focus {
@@ -616,10 +769,10 @@ form .form-details button:hover {
   box-shadow: 0 0 2px 2px rgb(248, 58, 213);
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 800px) {
   form {
     margin-top: 0;
-    width: 80vw;
+    width: 100%;
     height: -moz-fit-content 80vh;
     height: fit-content 80vh;
     padding: 1rem;
@@ -631,20 +784,13 @@ form .form-details button:hover {
     margin: 1rem;
   }
 }
-main {
-  text-align: center;
-  padding: auto;
-  width: 100vw;
-  height: 100vh;
-}
-
 .successmessage {
   background-color: white;
   color: rgb(59, 0, 59);
   margin: auto;
-  margin-top: 20vh;
+  margin-top: 10vw;
   width: 30vw;
-  height: 60vh;
+  height: 25vw;
   border-radius: 20px;
   text-align: center;
   padding: 3rem;
@@ -677,32 +823,6 @@ main {
   background-color: rgb(248, 58, 213);
 }
 
-@media (min-width: 610px) and (max-width: 1000px) {
-  .successmessage {
-    height: -moz-fit-content;
-    height: fit-content;
-    width: 40vw;
-    padding: 1.5rem;
-  }
-}
-@media screen and (max-width: 611px) {
-  .successmessage {
-    height: -moz-fit-content;
-    height: fit-content;
-    width: 50vw;
-    padding: 1.2rem;
-  }
-  .successmessage h1 {
-    font-weight: 700;
-    font-size: 2.5rem;
-  }
-  .successmessage p {
-    font-size: 1.2rem;
-  }
-  .successmessage button {
-    margin-top: 1.2rem;
-  }
-}
 * {
   margin: 0;
   padding: 0;
@@ -711,8 +831,9 @@ main {
 
 body {
   font-size: 62.5%;
-  margin-right: 10vw;
-  margin-left: 10vw;
+  margin-right: 15vw;
+  margin-left: 15vw;
+  margin-top: 10vh;
   background: rgb(59, 0, 59);
   color: white;
   overflow-x: hidden;

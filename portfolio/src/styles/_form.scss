@@ -1,7 +1,7 @@
 form{
     margin-top: 4rem;
     background-color: white;
-    // width: 50vw;
+    width: 50vw;
     height: fit-content 80vh;
     padding: 3rem;
     h1{
@@ -18,7 +18,6 @@ form{
         margin: 1rem;
         font-size: 1rem;
         color: rgb(59, 0, 59);
-        line-height: 25px;
     }
     .form-details{
         border: 2px solid rgb(59, 0, 59);
@@ -52,7 +51,7 @@ form{
             background-color: white;
             font-family: 'Times New Roman', Times, serif;
             &::placeholder{
-                color: rgba(59, 0, 59, 0.737);
+                color: rgb(59, 0, 59);
                 font-size: 1rem;
             }
             &:focus{
@@ -70,7 +69,7 @@ form{
             background-color: white;
             font-family: 'Times New Roman', Times, serif;
             &::placeholder{
-                color: rgba(59, 0, 59, 0.724);
+                color: rgb(59, 0, 59);
                 font-size: 1rem;
             }
             &:focus{
@@ -101,10 +100,10 @@ form{
 }
 
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 800px) {
     form{
         margin-top: 0;
-        width: 80vw;
+        width: 100%;
         height: fit-content 80vh;
         padding: 1rem;
        

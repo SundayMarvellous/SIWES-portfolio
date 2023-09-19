@@ -1,23 +1,23 @@
 .contact{
-    margin-bottom: 10vh;
     .main{
-        padding-top: 25vh;
+        margin-top: 2rem;
         display: flex;
         // gap: 4rem;
         text-align: center;
         &-image{
             height: fit-content;
            .image{
-            width: 40vw;
-            height: 100%;
+            width: 33vw;
+            height: 90vh;
            }
         }
     }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 800px) {
     .contact{
         .main{
+            margin-top: 2rem;
             display: flex;
             flex-direction: column;
             text-align: center;
@@ -26,8 +26,8 @@
                 width: fit-content;
                 margin: auto;
                .image{
-                width: 80vw;
-                height: 100%;
+                width: 50vw;
+                height: 50vh;
                }
             }
         }

@@ -10,7 +10,7 @@
     padding-right: 15vw;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
-    width: 110vw;
+    width: 100vw;
 
     .navbottom{
         display: flex;
@@ -27,6 +27,7 @@
                 cursor: pointer;
                 &:hover{
                     color: rgb(255, 83, 232);
+                    font-size: 1rem;
                 }
             }
         }
@@ -60,6 +61,7 @@
                     cursor: pointer;
                     &:hover{
                         color: rgb(255, 83, 232);
+                        font-size: 1rem;
                     }
                 }
             }
