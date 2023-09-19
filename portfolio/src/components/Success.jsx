@@ -2,7 +2,7 @@
 import React from 'react';
 // import { name } from "./Form"
 import { useState, useEffect } from "react";
-import { Routes, Route, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import Icon from "../images/porfolio/icon-success.svg"
 // import { motion as m } from "framer-motion";
 import Confetti from "react-confetti";
