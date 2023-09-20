@@ -32,6 +32,7 @@ function Home() {
         <button onClick={handleToContact}>GET IN TOUCH</button>
       </div>
       {/* <Navbottom /> */}
+      // REMOVED BOTTOM NAVIGATION 
     </div>
   )
 }
